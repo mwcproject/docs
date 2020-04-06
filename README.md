@@ -6,19 +6,19 @@ Please see the different Linked MD Files to find the Information you are searchi
 
 ## Receiving Funds
 
-- ![HTTP NGrok QT Wallet](https://github.com/mwcproject/docs/receive_http_ngrok_qt-wallet.md)
+- [HTTP NGrok QT Wallet](receive_http_ngrok_qt-wallet.md)
 
-- ![HTTP Port Forwarding QT Wallet](https://github.com/mwcproject/docs/receive_http_port_forwarding_qt-wallet.md)
+- [HTTP Port Forwarding QT Wallet](receive_http_port_forwarding_qt-wallet.md)
 
-- ![HTTP NGrok CLI Wallet](https://github.com/mwcproject/docs/receive_http_ngrok_cli-wallet.md)
+- [HTTP NGrok CLI Wallet](receive_http_ngrok_cli-wallet.md)
 
 
 ## Node Management (tbd)
 
-- ![Build the Node from Source](https://github.com/mwcproject/mwc-node/blob/master/doc/build.md)
+- [Build the Node from Source](https://github.com/mwcproject/mwc-node/blob/master/doc/build.md)
 
 
 ## Exchange Recommendations
 
-- ![Exchange Recommendations](https://github.com/mwcproject/mwc-node/blob/master/doc/exchange_recommendations.md)
+- [Exchange Recommendations](https://github.com/mwcproject/mwc-node/blob/master/doc/exchange_recommendations.md)
 
