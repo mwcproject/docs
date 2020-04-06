@@ -13,7 +13,7 @@ Please see the different Linked MD Files to find the Information you are searchi
 - [HTTP NGrok CLI Wallet](receive_http_ngrok_cli-wallet.md)
 
 
-## Node Management (tbd)
+## Node Management
 
 - [Build, Configuring, and Running the Node](https://github.com/mwcproject/mwc-node/blob/master/doc/build.md)
 
