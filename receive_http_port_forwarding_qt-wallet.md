@@ -44,11 +44,11 @@ To follow this tutorial, you will need to download the following file :
   <br /> 
   <br /> 
   
-  - A tab named _**FOREIGN API LISTENER**_ open, tick the case of _**Activate Foreign REST API listener**_, to enable the HTTP listener. Also edit the _**Listening Address**_ to `0.0.0.0:3415`, then you can click on _**Apply**_.
+  - A tab named _**FOREIGN API LISTENER**_ open, tick the case of _**Activate Foreign REST API listener**_, to enable the HTTP listener. 
+  - Make sure to edit the _**Listening Address**_ to `0.0.0.0:3415`, then you can click on _**Apply**_.
   
 
-
-  ![enable](/static/img/gui4.png "FOREIGN API LISTENER")  
+  ![enable](/static/img/apilistenerconfig.png "FOREIGN API LISTENER")  
   
   <br />
   <br /> 

@@ -116,9 +116,9 @@ To follow this tutorial, you will need to download the following file :
   <br /> 
   <br /> 
   
-  - A tab named _**FOREIGN API LISTENER**_ open, tick the case of _**Activate Foreign REST API listener**_, to enable the HTTP listener. Also edit the _**Listening Address**_ to `127.0.0.1:3415`, then you can click on _**Apply**_.
+  - A tab named _**FOREIGN API LISTENER**_ open, tick the case of _**Activate Foreign REST API listener**_, to enable the HTTP listener. 
+  - Make sure to edit the _**Listening Address**_ to `127.0.0.1:3415`, then you can click on _**Apply**_.
   
-  > Note that if you use the ip:port address instead of ngrok address, you will need to let this as `0.0.0.0:3415`
 
   ![enable](/static/img/gui4.png "FOREIGN API LISTENER")  
   
