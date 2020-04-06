@@ -85,7 +85,7 @@ To follow this tutorial, you will need to download the following file :
 
 - Once you have the http listener on the MWC wallet and know your external IP, you can make your withdrawal with the Router IP Address that you just looked up. An example is below
 
-   > Make sure to have the MWC wallet open and running. An Example Address would be  : http://84.12.123.7:3415
+Make sure to have the MWC wallet open and running. An Example Address would be  : http://84.12.123.7:3415
    
 
 
