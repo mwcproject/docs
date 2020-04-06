@@ -1,5 +1,5 @@
 # MWC Guides
-This Repo serves as a knodgledgebase and Info Aggregator about Documentation on MWC, explaining how to transact, how to run a Node, how to do the most common Daily tasks and much more
+This Repo serves as a knowledge base and Info Aggregator about Documentation on MWC, explaining how to transact, how to run a Node, how to do the most common Daily tasks and much more
 
 Please see the different Linked MD Files to find the Information you are searching for
 
