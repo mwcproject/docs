@@ -15,7 +15,7 @@ Please see the different Linked MD Files to find the Information you are searchi
 
 ## Node Management (tbd)
 
-- [Build the Node from Source](https://github.com/mwcproject/mwc-node/blob/master/doc/build.md)
+- [Build, Configuring, and Running the Node](https://github.com/mwcproject/mwc-node/blob/master/doc/build.md)
 
 
 ## Exchange Recommendations
