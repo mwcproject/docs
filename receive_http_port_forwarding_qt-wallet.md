@@ -5,7 +5,7 @@
 
 ## Contents : 
   * [Requirements](#requirements)
-  * [Receive via HTTP with Port Forwarding on GUI MWC Wallet](#receive-via-http-with-ngrok-on-gui-mwc-wallet)
+  * [Receive via HTTP with Port Forwarding on GUI MWC Wallet](#Receive-via-HTTP-with-Port-Forwarding-on-GUI-MWC-Wallet)
   
 ## Requirements
 To follow this tutorial, you will need to download the following file : 
@@ -72,11 +72,11 @@ To follow this tutorial, you will need to download the following file :
 
 - Now you can  note down your Routers IP address to get your withdrawal address : 
 
-      >  Visit http://myip.is and note down your IP address displayed on 
+Visit http://myip.is and note down your IP address displayed on the Webpage, an example is provided Below
 
 
 
-![RouterAddress](/static/img/myipis1.png "Myip.is Ruoter IP Address")
+![RouterAddress](/static/img/myipis1.png "Myip.is Router IP Address")
 
   <br />
   <br /> 
