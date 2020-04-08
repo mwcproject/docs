@@ -62,9 +62,9 @@
   A: Depending on "how old" your Coins are, they will fall in different Classes.
   The exact details of which class gets which benefit aren't out yet. Generally the older your registered coins the more you will earn.
   
-  Class 1 - Blocks - 0 - 202,500
-  Class 2 - Blocks - 202,501 - 212,580
-  Class 3 - Blocks - 212,581 - 385,380
+  * Class 1 - Blocks - 0 - 202,500
+  * Class 2 - Blocks - 202,501 - 212,580
+  * Class 3 - Blocks - 212,581 - 385,380
   
   Q: **Can I just create a second Account in my existing Wallet for new coins?** 
   
