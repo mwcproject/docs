@@ -39,7 +39,6 @@
   Creating a second Instance will create a new Wallet, so make sure to backup the Seed phrase!<br />
   [You can Read up on how to do this here](create_Instance_qt-wallet.md)
     
-<br />  
 ------
 
 ## How to check if Coins are HODL'ing
@@ -50,6 +49,8 @@
 
   ![check_HODL_amount](/static/img/check_HODL_amount.png "Registering for HODL Program")
   
+------
+ 
 ## FAQ: 
 
   Q: **Can I restore my wallet from Seed or will this disqualify my Coins from the HODL Program?** 
