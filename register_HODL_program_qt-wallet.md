@@ -16,7 +16,7 @@
 	1)Selecting the "HODL"-Button on the left Side of the GUI
 	2)Clicking "Register"
 	
-	This will register all Coins of this Wallet Instance (over all Accounts it contains)
+  This will register all Coins of this Wallet Instance (over all Accounts it contains)
 <br />
   
   ![register_HODL](/static/img/register_HODL.png "Registering for HODL Programm")
