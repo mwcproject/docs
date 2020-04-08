@@ -74,6 +74,12 @@
   
   A: Currently, All that has been announced about the HODL Program can be looked up on the [Webpage's HODL Section](https://www.mwc.mw/hodl)
   
+  Q: **There is a warning message regarding privacy when registering for the HODL Program, what does this entail?** 
+  
+  A: This Message just let's you know that the MWC HODL Servers can track the Registered Amoutns using it's root public key.
+  This **does not** mean you are loosing your privacy in General, it let's you know that the HODL Servers can track your Amounts as this is needed for the HODL Program.
+  You can move your Coins to another unregistered Wallet Instance at any Point and further forward movements won't be able to be tracked.
+  This is the least invasive way to implement the HODL program.
   
   
   
