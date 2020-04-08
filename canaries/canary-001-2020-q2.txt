@@ -1,5 +1,5 @@
   
----===[ Grin Canary #002 ]===---
+---===[ MWC Canary #001 ]===---
 
 
 Statements
