@@ -19,7 +19,7 @@
 	It's important not to move your coins before registering. 
 	See below for best practices on how to Differentiate between your HODL Amount and your 
   
-  ![register_HODL](/static/img/mwc_register_HODL.png "Registering for HODL Programm")
+  ![register_HODL](/static/img/register_HODL.png "Registering for HODL Programm")
 
 ------
 
