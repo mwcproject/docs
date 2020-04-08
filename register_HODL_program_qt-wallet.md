@@ -7,7 +7,7 @@
 ## Contents : 
   * [How to Register](#How-to-Register)
   * [How to keep my Coins in the HODL Programm](#How-to-keep-my-coins-in-the-HODL-Programm)
-  * [How to check if Coins are HODL'ing](#How-to-check-if-Coins-are-HODL'ing)
+  * [How to check if Coins are HODL'ing](#How-to-check-if-Coins-are-HODLing)
   
 ## How to Register
 
@@ -15,6 +15,8 @@
   
 	1)Selecting the "HODL"-Button on the left Side of the GUI
 	2)Clicking "Register"
+	
+	This will register all Coins of this Wallet Instance (over all Accounts it contains)
 <br />
   
   ![register_HODL](/static/img/register_HODL.png "Registering for HODL Programm")
