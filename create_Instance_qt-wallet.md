@@ -21,8 +21,8 @@
 	5)select this Folder and confirm
 	6)Click Apply
 	
-	Then the wallet will let you initialize your Second Instance.
-	Choose Strong passwords and Backup your Seed - Stay Safe!
+	Then the Wallet will let you initialize your Second Instance.
+	Choose Strong Passwords and Backup your Seed - Stay Safe!
 	
 	
   ![create_instance](/static/img/create_instance.gif "Create Wallet Instance")
@@ -43,4 +43,4 @@
 	7)Enter the Password for this Wallet
 
 		
-  ![register_HODL](/static/img/switch_instance.gif "Registering for HODL Programm")
+  ![register_HODL](/static/img/switch_instance.gif "Registering for HODL Program")
