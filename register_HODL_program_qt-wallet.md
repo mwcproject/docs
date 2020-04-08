@@ -38,9 +38,8 @@
   
   Creating a second Instance will create a new Wallet, so make sure to backup the Seed phrase!<br />
   [You can Read up on how to do this here](create_Instance_qt-wallet.md)
- 
-  When it comes to How exactly the HODL Program works, not all Details have been announced so far.
-  So make sure to Check up on the [Webpage's HODL Section](https://www.mwc.mw/hodl) for all availlable Information!
+  
+  For all currently availlable Information regardig the HODL Program check the [Webpage's HODL Section](https://www.mwc.mw/hodl) for all availlable Information!
 ------
 
 ## How to check if Coins are HODL'ing
