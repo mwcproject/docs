@@ -1,0 +1,47 @@
+  
+---===[ Grin Canary #002 ]===---
+
+
+Statements
+-----------
+
+The MWC Developer Team contacts who have digitally signed this canary state the following:
+
+1. The date of issue of this canary is April 8, 2020.
+
+2. No warrants have ever been served to us with regard to the MWC 
+Project (e.g. to hand out the private signing keys or to introduce
+backdoors).
+
+Special announcements
+----------------------
+
+None.
+
+Disclaimers and notes
+----------------------
+
+This canary scheme is not infallible. Although signing the declaration
+makes it very difficult for a third party to produce arbitrary
+declarations, it does not prevent them from using force or other
+means, like blackmail or compromising the signers' laptops, to coerce
+us to produce false declarations.
+
+The block hashes quoted below (Proof of freshness) serve to demonstrate
+that this canary could not have been created prior to the date stated.
+It shows that a series of canaries was not created in advance.
+
+This declaration is merely a best effort and is provided without any
+guarantee or warranty. It is not legally binding in any way to
+anybody. None of the signers should be ever held legally responsible
+for any of the statements made here.
+
+Proof of freshness
+-------------------
+
+$ date -R -u && mwc client status | grep 'Last block' | cut -c 18- && curl -s 'https://blockstream.info/api/blocks/tip/hash'; echo && curl -s 'https://api.blockcypher.com/v1/ltc/main' | grep '"hash' | cut -c 12-75 && curl -s 'https://api.blockcypher.com/v1/eth/main' | grep '"hash' | cut -c 12-75
+Wed, 08 Apr 2020 19:02:16 +0000
+000005687005185c34791d57c7f08aab173f6d5b3147a3a0370d74eeea1643a5
+00000000000000000008dffb25ed3afc958583e187ac7b92becb3029dadd65bb
+96cba1a394049ce5b1119936e56c2672307e4236ffa683e272a8c37d3321d75d
+790f4835632ec27eae30cc5d94210759d1e3d67733db2875c39baa4944e94b10
