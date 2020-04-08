@@ -68,7 +68,7 @@
   
   Q: **Can I just create a second Account in my existing Wallet for new coins?** 
   
-  A: To be extra Safe we reccomend creating a second Wallet Instance. 
+  A: To be extra Safe we recomend creating a second Wallet Instance. 
   
   Q: **Is there any more Information?** 
   
