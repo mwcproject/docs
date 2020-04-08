@@ -1,6 +1,6 @@
 
 # Receive via HTTP with Port forwarding 
-**To receive payment via HTTP, you need to configure your HTTP(S) Listener to listen first
+**To receive payment via HTTP, you need to configure your HTTP(S) Listener to listen first**
 
 
 ## Contents : 

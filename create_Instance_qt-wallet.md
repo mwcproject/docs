@@ -1,7 +1,7 @@
 
 # Managing Instances in the QT Wallet
 
-**To make sure you are seperating different Amounts of MWC you can create different Instances. 
+  To make sure you are seperating different Amounts of MWC you can create different Instances. 
   Creating an instance is similar to creating a new wallet, but you can switch between them in the same GUI wihtout a big struggle.
 
 
