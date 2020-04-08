@@ -36,7 +36,7 @@
   Many People create a second Wallet Instance and only use this second instance after they registered their funds to HODL. 
   This way they are making sure they don't touch their HODL'ed funds. 
   
-  Creating a second Instance will create a new Wallet, so make sure to backup the Seed phrase! 
+  Creating a second Instance will create a new Wallet, so make sure to backup the Seed phrase!<br />
   [You can Read up on how to do this here](create_Instance_qt-wallet.md)
  
   When it comes to How exactly the HODL Program works, not all Details have been announced so far.
