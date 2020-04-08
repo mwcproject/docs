@@ -21,7 +21,7 @@
 <br />
   
   ![register_HODL](/static/img/register_HODL.png "Registering for HODL Program")
-
+<br />
 ------
 
 ## How to keep my coins in the HODL Program
@@ -39,7 +39,8 @@
   Creating a second Instance will create a new Wallet, so make sure to backup the Seed phrase!<br />
   [You can Read up on how to do this here](create_Instance_qt-wallet.md)
   
-  For all currently availlable Information regardig the HODL Program check the [Webpage's HODL Section](https://www.mwc.mw/hodl) for all availlable Information!
+  For all currently availlable Information regardig the HODL Program check the [Webpage's HODL Section](https://www.mwc.mw/hodl)
+<br />  
 ------
 
 ## How to check if Coins are HODL'ing
