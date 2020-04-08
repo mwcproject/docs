@@ -12,6 +12,13 @@ Please see the different Linked MD Files to find the Information you are searchi
 
 - [HTTP NGrok CLI Wallet](receive_http_ngrok_cli-wallet.md)
 
+## Registering for the HODL Programm 
+
+- [Register HODL Programm QT Wallet](register_HODL_program_qt-wallet.md)
+
+## Managing Funds
+
+- [Create/Manage Instances QT Wallet](create_Instance_qt-wallet.md)
 
 ## Node Management
 
