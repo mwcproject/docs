@@ -24,6 +24,8 @@ If the Error persists, Go for the second Option and Wipe Chaindata too!
  3) Switch into your Recovery Directory
  4) Recover Wallet from Seed 
  
+
+ **Make sure your Node is running to recover your Wallet**
  
  #### Linux
 	mkdir recovery 
@@ -57,7 +59,7 @@ If the Error persists, Go for the second Option and Wipe Chaindata too!
  5) Recover Wallet from Seed 
  
  
-  Here are the needed Commmands: 
+
  **Make sure your Node is stopped for this**
 
  #### Linux
