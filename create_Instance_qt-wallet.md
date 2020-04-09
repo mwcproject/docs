@@ -21,7 +21,7 @@
 	5)select this Folder and confirm
 	6)Click Apply
 	
-	Then the Wallet will let you initialize your Second Instance.
+	Then the Wallet will let you initialize a new Instance or restore an existing Seed.
 	Choose Strong Passwords and Backup your Seed - Stay Safe!
 	
 	
