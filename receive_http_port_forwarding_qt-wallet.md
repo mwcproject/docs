@@ -1,6 +1,6 @@
 
 # Receive via HTTP with Port forwarding 
-**To receive payment via HTTP, you need to configure your HTTP(S) Listener to listen first
+**To receive payment via HTTP, you need to configure your HTTP(S) Listener to listen first**
 
 
 ## Contents : 
@@ -46,7 +46,7 @@ To follow this tutorial, you will need to download the following file :
   
   - A tab named _**FOREIGN API LISTENER**_ open, tick the case of _**Activate Foreign REST API listener**_, to enable the HTTP listener. 
   - Make sure to edit the _**Listening Address**_ to `0.0.0.0:3415`, then you can click on _**Apply**_.
-  
+
 
   ![enable](/static/img/apilistenerconfig.png "FOREIGN API LISTENER")  
   

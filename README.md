@@ -12,6 +12,15 @@ Please see the different Linked MD Files to find the Information you are searchi
 
 - [HTTP NGrok CLI Wallet](receive_http_ngrok_cli-wallet.md)
 
+## Restore from Seed / Troubleshooting
+
+- [Restore from Seed QT Wallet](restore_from_seed_qt-wallet.md)
+
+- [Restore from Seed CLI Wallet](restore_from_seed_cli-wallet.md)
+
+## Managing Funds
+
+- [Create/Manage Instances QT Wallet](create_Instance_qt-wallet.md)
 
 ## Node Management
 
