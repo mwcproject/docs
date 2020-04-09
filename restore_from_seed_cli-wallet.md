@@ -66,7 +66,7 @@ If the Error persists, Go for the second Option and Wipe Chaindata too!
  
 	rm -rf ~/.mwc/main/chain_data
 	
-  start the node and **Wait for it to sync**! 
+  Now start the node and **Wait for it to sync**! 
   
 	mkdir recovery2
 	cd recovery2
@@ -82,7 +82,7 @@ If the Error persists, Go for the second Option and Wipe Chaindata too!
  
 	rmdir /S /Q C:\Users\%username%\.mwc\main\chain_data
 	
-  start the node and **Wait for it to sync**!
+  Now start the node and **Wait for it to sync**!
   
 	mkdir recovery2
 	cd recovery2
