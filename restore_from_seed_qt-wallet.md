@@ -21,7 +21,7 @@ Let's lay out the overall procedure, the needed Commands are below!
  * [Create a new Wallet Instance](create_Instance_qt-wallet.md)
  * Make sure to restore an existing Seed instead of creating a new one
  
- Here is a short GIF Illustrating the process:
+ Here is a short GIF Illustrating the process:  <br />
 ![restore_seed_qt](/static/img/restore_seed_qt-wallet.gif "restore_seed_qt")
  
  Usually this does the trick, in Case the Error persists try to wipe Chaindata as shown below.
