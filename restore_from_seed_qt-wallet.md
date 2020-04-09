@@ -1,5 +1,5 @@
 
-# Restore CLI-Wallet from Seedphrase 
+# Restore QT-Wallet from Seedphrase 
 
 
 ## Contents : 
