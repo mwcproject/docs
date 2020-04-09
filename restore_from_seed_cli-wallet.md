@@ -52,13 +52,13 @@ If the Error persists, Go for the second Option and Wipe Chaindata too!
  
  First let's lay out the overall procedure, the needed Commmands to accomplish this are below.
  
- 1) Create a new recovery directory
- 2) Copy Node api secret into your new recovery Directory
- 3) Switch into your new Recovery Directory
- 4) Wipe Chaindata 
+ 1) Wipe Chaindata 
+ 2) Create a new recovery directory
+ 3) Copy Node api secret into your new recovery Directory
+ 4) Switch into your new Recovery Directory
  5) Recover Wallet from Seed 
  
- 
+
 
  **Make sure your Node is stopped for this**
 
