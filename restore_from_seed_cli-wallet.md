@@ -61,7 +61,7 @@ Let's lay out the overall procedure, the needed Commands are below!
  
 	rm -rf ~/.mwc/main/chain_data
 	
-  start node and **Wait for it to sync**   
+  start the node and **Wait for it to sync**! 
   
 	mkdir recovery2
 	cd recovery2
@@ -77,7 +77,7 @@ Let's lay out the overall procedure, the needed Commands are below!
  
 	rmdir /S /Q C:\Users\%username%\.mwc\main\chain_data
 	
-  start node and **Wait for it to sync** 
+  start the node and **Wait for it to sync**!
   
 	mkdir recovery2
 	cd recovery2
