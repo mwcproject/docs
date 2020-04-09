@@ -14,15 +14,16 @@ If you have a transaction Error and can't seem to resolve it, restoring from See
 First, try to keep Chaindata intact to preserve your transactionhistory.
 If the Error persists, Go for the second Option and Wipe Chaindata too!
 
-Let's lay out the overall procedure, the needed Commands are below!
   
  ### Restore and keep Chaindata 
- * Create recovery directory
- * Copy Node api secret into your recovery Directory
- * Switch into your Recovery Directory
- * Recover Wallet from Seed 
  
- Usually this does the trick, here are the needed Commmands: 
+ First let's lay out the overall procedure, the needed Commmands to accomplish this are below.
+ 
+ 1) Create recovery directory
+ 2) Copy Node api secret into your recovery Directory
+ 3) Switch into your Recovery Directory
+ 4) Recover Wallet from Seed 
+ 
  
  #### Linux
 	mkdir recovery 
@@ -47,11 +48,13 @@ Let's lay out the overall procedure, the needed Commands are below!
 
  ### Restore and Wipe Chaindata 
  
- * Create a new recovery directory
- * Copy Node api secret into your new recovery Directory
- * Switch into your new Recovery Directory
- * Wipe Chaindata 
- * Recover Wallet from Seed 
+ First let's lay out the overall procedure, the needed Commmands to accomplish this are below.
+ 
+ 1) Create a new recovery directory
+ 2) Copy Node api secret into your new recovery Directory
+ 3) Switch into your new Recovery Directory
+ 4) Wipe Chaindata 
+ 5) Recover Wallet from Seed 
  
  
   Here are the needed Commmands: 
@@ -70,7 +73,7 @@ Let's lay out the overall procedure, the needed Commands are below!
 	<enter recovery phrase>
 
  
-  Make sure to always executes commands from this new recovery Directory! All your Wallet Data will be stored here now!
+  Make sure to always execute commands from this new recovery Directory! All your Wallet Data will be stored here now!
  
  
  #### Windows
@@ -85,7 +88,7 @@ Let's lay out the overall procedure, the needed Commands are below!
 	mwc-wallet.exe init -h -r
 	<enter recovery phrase>
  
-  Make sure to always executes commands from this new recovery Directory! All your Wallet Data will be stored here now!
+  Make sure to always execute commands from this new recovery Directory! All your Wallet Data will be stored here now!
  
 
  

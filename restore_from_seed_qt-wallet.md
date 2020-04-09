@@ -14,12 +14,13 @@ If you have a transaction Error and can't seem to resolve it, restoring from See
 First, try to keep Chaindata intact to preserve your transactionhistory.
 If the Error persists, Go for the second Option and Wipe Chaindata too!
 
-Let's lay out the overall procedure, the needed Commands are below!
  
  ### Restore and keep Chaindata 
  
- * [Create a new Wallet Instance](create_Instance_qt-wallet.md)
- * Make sure to restore an existing Seed instead of creating a new one
+ First let's lay out the overall procedure, the needed Commmands to accomplish this are below.
+ 
+ 1) [Create a new Wallet Instance](create_Instance_qt-wallet.md)
+ 2) Make sure to restore an existing Seed instead of creating a new one
  
  Here is a short GIF Illustrating the process:  <br />
 ![restore_seed_qt](/static/img/restore_seed_qt-wallet.gif "restore_seed_qt")
@@ -31,11 +32,13 @@ Let's lay out the overall procedure, the needed Commands are below!
 
  ### Restore and Wipe Chaindata 
   
+  First let's lay out the overall procedure, the needed Commmands to accomplish this are below.
+  
    **Make sure your QT Wallet is stopped for this**
    
- * Delete the Chaindata Directory (Folders/Commands listed below)
- * [Create a new Wallet Instance](create_Instance_qt-wallet.md)
- * Make sure to restore an existing Seed instead of creating a new one
+ 1) Delete the Chaindata Directory (Folders/Commands listed below)
+ 2) [Create a new Wallet Instance](create_Instance_qt-wallet.md)
+ 3) Make sure to restore an existing Seed instead of creating a new one
  
 
  **How to remove the Chaindata Folder:** 
