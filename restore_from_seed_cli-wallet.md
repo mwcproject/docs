@@ -25,21 +25,21 @@ Let's lay out the overall procedure, the needed Commands are below!
  Usually this does the trick, here are the needed Commmands: 
  
  #### Linux
- * `mkdir recovery`
- * `cd recovery`
- * `cp ~/.mwc/main/.api_secret .`
- * `mwc-wallet init -h -r`
- * `<enter recovery phrase>`
+ `mkdir recovery`  <br />
+ `cd recovery`  <br />
+ `cp ~/.mwc/main/.api_secret .`  <br />
+ `mwc-wallet init -h -r`  <br />
+ `<enter recovery phrase>`  <br />
  
  Make sure to always executes commands from this new recovery Directory! All your Wallet Data will be stored here now!
  
  #### Windows
  
- * `mkdir recovery`
- * `cd recovery`
- * `copy C:\Users\%username%\.mwc\main\.api_secret %cd%`
- * `mwc-wallet.exe init -h -r`
- * `<enter recovery phrase>`
+ `mkdir recovery`  <br />
+ `cd recovery`  <br />
+ `copy C:\Users\%username%\.mwc\main\.api_secret %cd%`  <br />
+ `mwc-wallet.exe init -h -r`  <br />
+ `<enter recovery phrase>`  <br />
  
   Make sure to always executes commands from this new recovery Directory! All your Wallet Data will be stored here now!
  
@@ -58,13 +58,13 @@ Let's lay out the overall procedure, the needed Commands are below!
  **Make sure your Node is stopped for this**
 
  #### Linux
- * `rm -rf ~/.mwc/main/chain_data`
- * `start node and **Wait for it to sync**`
- * `mkdir recovery2`
- * `cd recovery2`
- * `cp ~/.mwc/main/.api_secret .`
- * `mwc-wallet init -h -r`
- * `<enter recovery phrase>`
+ `rm -rf ~/.mwc/main/chain_data`  <br />
+ `start node and **Wait for it to sync**`  <br />
+ `mkdir recovery2`  <br />
+ `cd recovery2`  <br />
+ `cp ~/.mwc/main/.api_secret .`  <br />
+ `mwc-wallet init -h -r`  <br />
+ `<enter recovery phrase>`  <br />
 
  
   Make sure to always executes commands from this new recovery Directory! All your Wallet Data will be stored here now!
@@ -72,13 +72,13 @@ Let's lay out the overall procedure, the needed Commands are below!
  
  #### Windows
  
- * `rmdir /S /Q C:\Users\%username%\.mwc\main\chain_data`
- * `start node and **Wait for it to sync**`
- * `mkdir recovery2`
- * `cd recovery2`
- * `copy C:\Users\%username%\.mwc\main\.api_secret %cd%`
- * `mwc-wallet.exe init -h -r`
- * `<enter recovery phrase>`
+ `rmdir /S /Q C:\Users\%username%\.mwc\main\chain_data`  <br />
+ `start node and **Wait for it to sync**`  <br />
+ `mkdir recovery2`  <br />
+ `cd recovery2`  <br />
+ `copy C:\Users\%username%\.mwc\main\.api_secret %cd%`  <br />
+ `mwc-wallet.exe init -h -r`  <br />
+ `<enter recovery phrase>`  <br />
  
   Make sure to always executes commands from this new recovery Directory! All your Wallet Data will be stored here now!
  
