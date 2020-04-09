@@ -59,7 +59,7 @@ Let's lay out the overall procedure, the needed Commands are below!
 
  #### Linux
 	rm -rf ~/.mwc/main/chain_data
-	start node and **Wait for it to sync**
+  start node and **Wait for it to sync**
 	mkdir recovery2
 	cd recovery2
 	cp ~/.mwc/main/.api_secret .
@@ -73,7 +73,7 @@ Let's lay out the overall procedure, the needed Commands are below!
  #### Windows
  
 	rmdir /S /Q C:\Users\%username%\.mwc\main\chain_data
-	start node and **Wait for it to sync**
+  start node and **Wait for it to sync**
 	mkdir recovery2
 	cd recovery2
 	copy C:\Users\%username%\.mwc\main\.api_secret %cd%
