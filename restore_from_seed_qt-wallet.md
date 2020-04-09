@@ -16,7 +16,7 @@ If the Error persists, Go for the second Option and Wipe Chaindata too!
 
 Let's lay out the overall procedure, the needed Commands are below!
  
- ###Restore and keep Chaindata 
+ ### Restore and keep Chaindata 
  
  * [Create a new Wallet Instance](create_Instance_qt-wallet.md)
  * Make sure to restore an existing Seed instead of creating a new one
@@ -26,7 +26,7 @@ Let's lay out the overall procedure, the needed Commands are below!
  
 ------
 
- ###Restore and Wipe Chaindata 
+ ### Restore and Wipe Chaindata 
   
    **Make sure your Node is stopped for this**
    
@@ -37,11 +37,11 @@ Let's lay out the overall procedure, the needed Commands are below!
 
  **How to remove the Chaindata Folder:** 
  
- ####Linux
+ #### Linux
 
  ``rm -rf ~/.mwc/main/chain_data
 
- ####Windows
+ #### Windows
  
  ``rmdir /S /Q C:\Users\%username%\.mwc\main\chain_data
 
