@@ -31,7 +31,7 @@ Let's lay out the overall procedure, the needed Commands are below!
 
  ### Restore and Wipe Chaindata 
   
-   **Make sure your Node is stopped for this**
+   **Make sure your QT Wallet is stopped for this**
    
  * Delete the Chaindata Directory (Folders/Commands listed below)
  * [Create a new Wallet Instance](create_Instance_qt-wallet.md)
