@@ -39,11 +39,11 @@ Let's lay out the overall procedure, the needed Commands are below!
  
  #### Linux
 
- ``rm -rf ~/.mwc/main/chain_data
+ `rm -rf ~/.mwc/main/chain_data`
 
  #### Windows
  
- ``rmdir /S /Q C:\Users\%username%\.mwc\main\chain_data
+ `rmdir /S /Q C:\Users\%username%\.mwc\main\chain_data`
 
  Make sure your Node is Synced completely before further actions you can see this by a gree Circle in the bottom right "Mainnet" Button:
  
