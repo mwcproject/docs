@@ -26,7 +26,7 @@ Please see the different Linked MD Files to find the Information you are searchi
 
 - [Build, Configuring, and Running the Node](https://github.com/mwcproject/mwc-node/blob/master/doc/build.md)
 
-- [Solomining Setup] (https://github.com/mwcproject/mwc-node/blob/master/doc/mwc_mining_guide.md)
+- [Solomining Setup](https://github.com/mwcproject/mwc-node/blob/master/doc/mwc_mining_guide.md)
 
 ## Exchange Recommendations
 
