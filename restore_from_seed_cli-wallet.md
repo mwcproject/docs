@@ -8,6 +8,8 @@
   * [Restore and wipe Chaindata](#Restore-and-wipe-Chaindata)
 	
 ## Preamble
+Before you start, make sure your Software is up to date!
+
 Some errors might require you to restore your Wallet from Seedphrase.
 If you have a transaction Error and can't seem to resolve it, restoring from Seed is the way to go!
 
