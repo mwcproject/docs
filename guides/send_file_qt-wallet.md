@@ -32,7 +32,6 @@ To follow this tutorial, you will need the following:
  10) Select "Finalize" in the Wallet and click on "Upload a File"
  11) Confirm Typing your password and wait for the transaction to confirm
  
- *Only Appears if the Wallet is registered for the HODL Program 
  
   - **Select the "Send" Tab of your Wallet, select the File Method and enter the Amount you want to send:**
   
