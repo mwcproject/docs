@@ -3,7 +3,7 @@
 
 ## Contents : 
   * [Requirements](#requirements)
-  * [Receive via Files using a QT Wallet](#Receive-via-Files-using-a-QUI-Wallet)
+  * [Receive via Files using a QT Wallet](#receive-via-files-using-a-gui-mwc-wallet)
   
 ## Requirements
 To follow this tutorial, you will need the following:

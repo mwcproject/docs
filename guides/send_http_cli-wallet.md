@@ -2,7 +2,7 @@
 
 ## Contents : 
   * [Requirements](#requirements)
-  * [Send via HTTP using the CLI Wallet](#Send-via-HTTP-using-the-CLI-Wallet)
+  * [Send via HTTP using the CLI Wallet](#send-via-http-using-the-cli-wallet-1)
   
 ------
   
