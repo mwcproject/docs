@@ -23,9 +23,9 @@ To follow this tutorial, you will need the following:
  2) Enter the Amount you wish to send
  3) click on "Next"
  4) Enter the Receiving Address in the "Send to" Field
- 5) Click Send   <br /> 
- 6*) If you have registered HODL Coins you will see a Dialog to doublecheck the Outputs that are spent.   <br /> 
- If you want to spend those Outputs confirm clicking "Continue"
+ 5) Click Send  
+ 6) If you have registered HODL Coins you will see a Dialog to doublecheck the Outputs that are spent.
+ If you want to spend those Outputs confirm by clicking "Continue"
  7) Confirm typing your password and wait for the transaction to confirm
  
  *Only Appears if Registered for the HODL Program 
