@@ -6,27 +6,27 @@ Please see the different Linked MD Files to find the Information you are searchi
 
 ## Receiving Funds
 
-- [HTTP NGrok QT Wallet](guides/receive_http_ngrok_qt-wallet.md)
+- [Receive over HTTP (NGrok) using the QT Wallet](guides/receive_http_ngrok_qt-wallet.md)
 
-- [HTTP Port Forwarding QT Wallet](guides/receive_http_port_forwarding_qt-wallet.md)
+- [Receive over HTTP (Port Forwarding) using the QT Wallet](guides/receive_http_port_forwarding_qt-wallet.md)
 
-- [HTTP NGrok CLI Wallet](guides/receive_http_ngrok_cli-wallet.md)
+- [Receive over HTTP (NGrok) using the CLI Wallet](guides/receive_http_ngrok_cli-wallet.md)
 
 ## Sending Funds
 
-- [HTTP QT Wallet](guides/send_http_qt-wallet.md)
+- [Send over HTTP using the QT Wallet](guides/send_http_qt-wallet.md)
 
-- [HTTP CLI Wallet](guides/send_http_cli-wallet.md)
+- [Send over HTTP using the CLI Wallet](guides/send_http_cli-wallet.md)
 
-- [File QT Wallet](guides/send_file_qt-wallet.md)
+- [Send over Files using the QT Wallet](guides/send_file_qt-wallet.md)
 
-- [File CLI Wallet](guides/send_file_cli-wallet.md)
+- [Send over Files using the CLI Wallet](guides/send_file_cli-wallet.md)
 
 ## Restore from Seed / Troubleshooting
 
-- [Restore from Seed QT Wallet](guides/restore_from_seed_qt-wallet.md)
+- [Restore a QT Wallet from Seed](guides/restore_from_seed_qt-wallet.md)
 
-- [Restore from Seed CLI Wallet](guides/restore_from_seed_cli-wallet.md)
+- [Restore a CLI Wallet from Seed](guides/restore_from_seed_cli-wallet.md)
 
 ## Managing Funds
 
