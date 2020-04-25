@@ -36,7 +36,7 @@ To follow this tutorial, you will need the following:
  
   - **Select the "Send" Tab of your Wallet, select the File Method and enter the Amount you want to send:**
   
-  ![selectsendfilestatic/img/selectsendfile.png "Select Sendfile")  
+  ![selectsendfile](static/img/selectsendfile.png "Select Sendfile")  
   
   <br />
   <br /> 
@@ -62,13 +62,12 @@ To follow this tutorial, you will need the following:
    (Hint: On Exchanges you can usually Download them right after)
  
   
-     ![createtransfile](/static/img/createtransfile.png "Create Transaction File")  
- 
-    - **Download the Anwserfile of the Recipient and Finalize the Transaction by Uploading it in the "Finalize" Tab of the Wallet**  <br /> 
+  ![createtransfile](/static/img/createtransfile.png "Create Transaction File")  
+	
+   - **Download the Anwserfile of the Recipient and Finalize the Transaction by Uploading it in the "Finalize" Tab of the Wallet**  <br /> 
    (Hint: On exchanges you can usually Download them right after)
 
-  
-     ![finalizefile](/static/img/finalizefile.png "Finalize Anwserfile")  
+  ![finalizefile](/static/img/finalizefile.png "Finalize Anwserfile")  
  
  
  
