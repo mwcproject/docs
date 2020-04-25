@@ -1,4 +1,3 @@
-
 # Receive via HTTP with a forwarded Port using a QT Wallet  
 **To receive payment via HTTP, you need to configure your HTTP(S) Listener to listen first**
 
@@ -17,6 +16,14 @@ To follow this tutorial, you will need to download the following file :
 
 ## Receive via HTTP with Port Forwarding on GUI MWC Wallet
 
+ 
+ First let's lay out the overall procedure, a Detailed description with Images is below.
+ 
+ 1) Enable the HTTP Listener
+ 2) Request the Payment
+ 3) Keep the Wallet open until the payment was received
+ 
+  
   <br />
   <br /> 
   

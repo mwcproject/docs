@@ -1,4 +1,3 @@
-
 # Receive via HTTP with ngrok using a CLI Wallet
 **To receive payment via HTTP, you need to configure your HTTP(S) payment address. For it, you have 3 options listed below : HTTP(S) address with Ngrok (recommended for beginners), HTTP(S) address with NAT or HTTP(S) address with Double-NAT.** That will allow every user to receive MWCs by HTTP(S) payment address. The most recommended and easiest way to configure the HTTP(S) address for new user is the Ngrok software. Moreover, by using Ngrok you will not reveal your ip to the sender, so the Double-Nat isn't needed anymore as long as you use the ngrok HTTP(S) address. 
 
@@ -17,6 +16,15 @@ To follow this tutorial, you will need to download the following file :
 
 ## Install and Run Ngrok 
 
+ 
+ First let's lay out the overall procedure, a Detailed description with Images is below.
+ 
+ 1) Start your Node and **wait for it to Sync**
+ 2) Start NGrok
+ 3) Start your Wallet in Listen Mode
+ 4) Request the Payment
+ 5) Keep the Wallet and Node open until the payment was received
+  
 - **Download [Ngrok](https://ngrok.com/download) with no account on all plateforms** with the link below :  
 
   > In our example, we'll take Ngrok on windows.  
