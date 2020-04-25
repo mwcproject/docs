@@ -21,12 +21,12 @@ To follow this tutorial, you will need the following:
 
   You can Create a new Instance by:
   
- 1)Starting the QT Wallet
- 2)Clicking "Wallet Instances" at the bottom of the Wallet
- 3)In the appearing Pop-up Click "Select" 
- 4)Creating a new Folder with any Name you want 
- 5)select this Folder and confirm
- 6)Click Apply
+ 1) Starting the QT Wallet
+ 2) Clicking "Wallet Instances" at the bottom of the Wallet
+ 3) In the appearing Pop-up Click "Select" 
+ 4) Creating a new Folder with any Name you want 
+ 5) select this Folder and confirm
+ 6) Click Apply
 	
   Then the Wallet will let you initialize a new Instance or restore an existing Seed.
   Choose Strong Passwords and Backup your Seed - Stay Safe!
@@ -42,12 +42,12 @@ To follow this tutorial, you will need the following:
 
   You can Switch Instances by:
   
- 1)Starting the QT Wallet
- 2)Clicking "Wallet Instances" at the bottom of the Wallet
- 3)In the Pop-up Click "Select" 
- 5)select the Folder of the Instance you want to open (Default is gui_wallet713_data)
- 6)Click Apply
- 7)Enter the Password for this Wallet
+ 1) Starting the QT Wallet
+ 2) Clicking "Wallet Instances" at the bottom of the Wallet
+ 3) In the Pop-up Click "Select" 
+ 5) select the Folder of the Instance you want to open (Default is gui_wallet713_data)
+ 6) Click Apply
+ 7) Enter the Password for this Wallet
 
 		
   ![register_HODL](/static/img/switch_instance.gif "Registering for HODL Program")

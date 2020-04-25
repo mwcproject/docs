@@ -9,7 +9,7 @@
 ## Requirements
 To follow this tutorial, you will need the following:
 - Up-to-date MWC QT-Wallet Software: https://github.com/mwcproject/mwc-qt-wallet/releases
-- You already Forwarded port 3415 to your local PC (See https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/)
+- A Forwarded port on your Router forwarding Port 3415 to your local PC (See https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/)
 
 
 ------
