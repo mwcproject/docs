@@ -36,7 +36,7 @@ To follow this tutorial, you will need the following:
  
   - **Select the "Send" Tab of your Wallet, select the File Method and enter the Amount you want to send:**
   
-  ![selectsendfile](static/img/selectsendfile.png "Select Sendfile")  
+  ![selectsendfile](/static/img/selectsendfile.png "Select Sendfile")  
   
   <br />
   <br /> 
