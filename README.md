@@ -16,11 +16,11 @@ Please see the different Linked MD Files to find the Information you are searchi
 
 - [HTTP QT Wallet](send_http_qt-wallet.md)
 
-- [HTTP NGrok CLI Wallet](send_http_cli-wallet.md)
+- [HTTP CLI Wallet](send_http_cli-wallet.md)
 
 - [File QT Wallet](send_file_qt-wallet.md)
 
-- [File NGrok CLI Wallet](send_file_cli-wallet.md)
+- [File CLI Wallet](send_file_cli-wallet.md)
 
 ## Restore from Seed / Troubleshooting
 
