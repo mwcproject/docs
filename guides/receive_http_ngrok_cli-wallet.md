@@ -7,9 +7,9 @@
   * [Receive via HTTP with ngrok using the CLI Wallet](#Receive-via-HTTP-with-ngrok-on-mwc-wallet)
   
 ## Requirements
-To follow this tutorial, you will need to download the following file : 
-- mwc-wallet : https://github.com/mwcproject/mwc-wallet/releases
-- mwc-node : https://github.com/mwcproject/mwc-node/releases
+To follow this tutorial, you will need the following:
+- Up-to-date MWC CLI-Wallet Software: https://github.com/mwcproject/mwc-wallet/releases
+- Up-to-date mwc-node Software: https://github.com/mwcproject/mwc-node/releases
 - cmd.bat : https://ufile.io/p29zmlrj
 - ngrok : https://ngrok.com/download
 

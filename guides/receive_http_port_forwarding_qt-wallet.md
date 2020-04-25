@@ -7,8 +7,8 @@
   * [Receive via HTTP with Port Forwarding on GUI MWC Wallet](#Receive-via-HTTP-with-Port-Forwarding-on-GUI-MWC-Wallet)
   
 ## Requirements
-To follow this tutorial, you will need to download the following file : 
-- GUI MWC Wallet : https://github.com/mwcproject/mwc-qt-wallet/releases
+To follow this tutorial, you will need the following:
+- Up-to-date MWC QT-Wallet Software: https://github.com/mwcproject/mwc-qt-wallet/releases
 - You already Forwarded port 3415 to your local PC (See https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/)
 
 

@@ -6,9 +6,16 @@
 
 
 ## Contents : 
+  * [Requirements](#requirements)
   * [How to Create a new Instance](#How-to-Create-a-new-Instance)
   * [How to switch between Instances](#How-to-switch-between-Instances)
   
+## Requirements
+To follow this tutorial, you will need the following:
+- Up-to-date MWC QT-Wallet Software: https://github.com/mwcproject/mwc-qt-wallet/releases
+
+
+------
   
 ## How to Create a new Instance
 
@@ -35,12 +42,12 @@
 
   You can Switch Instances by:
   
-	1)Starting the QT Wallet
-	2)Clicking "Wallet Instances" at the bottom of the Wallet
-	3)In the Pop-up Click "Select" 
-	5)select the Folder of the Instance you want to open (Default is gui_wallet713_data)
-	6)Click Apply
-	7)Enter the Password for this Wallet
+ 1)Starting the QT Wallet
+ 2)Clicking "Wallet Instances" at the bottom of the Wallet
+ 3)In the Pop-up Click "Select" 
+ 5)select the Folder of the Instance you want to open (Default is gui_wallet713_data)
+ 6)Click Apply
+ 7)Enter the Password for this Wallet
 
 		
   ![register_HODL](/static/img/switch_instance.gif "Registering for HODL Program")

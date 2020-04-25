@@ -6,8 +6,8 @@
   * [Receive via Files using a QT Wallet](#Receive-via-Files-using-a-QUI-Wallet)
   
 ## Requirements
-To follow this tutorial, you will need to download the following file : 
-- GUI MWC Wallet : https://github.com/mwcproject/mwc-qt-wallet/releases
+To follow this tutorial, you will need the following:
+- Up-to-date MWC QT-Wallet Software: https://github.com/mwcproject/mwc-qt-wallet/releases
 
 
 ------
