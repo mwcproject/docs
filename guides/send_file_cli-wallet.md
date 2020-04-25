@@ -7,16 +7,16 @@
 ------ 
 
 ## Requirements
-To follow this tutorial, you will need to download the following file : 
-- mwc-wallet : https://github.com/mwcproject/mwc-wallet/releases
-- mwc-node : https://github.com/mwcproject/mwc-node/releases
+To follow this tutorial, you will need the following:
+
+- Up-to-date mwc-wallet Software: https://github.com/mwcproject/mwc-wallet/releases
+- Up-to-date mwc-node Software: https://github.com/mwcproject/mwc-node/releases
+- An active Internet Connection
 
 ------
 
 ## Send via File using the CLI Wallet
 
-  <br />
-  <br /> 
  
  First let's lay out the overall procedure, a Detailed description with Images is below.
  

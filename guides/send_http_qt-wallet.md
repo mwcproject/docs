@@ -7,16 +7,15 @@
 ------
   
 ## Requirements
-To follow this tutorial, you will need to download the following file : 
-- GUI MWC Wallet : https://github.com/mwcproject/mwc-qt-wallet/releases
+To follow this tutorial, you will need the following:
+
+- Up-to-date MWC QT-Wallet Software : https://github.com/mwcproject/mwc-qt-wallet/releases
 - An active Internet Connection
 
 ------
 
 ## Send via HTTP using the GUI Wallet
 
-  <br />
-  <br /> 
  
  First let's lay out the overall procedure, a Detailed description with Images is below.
  
