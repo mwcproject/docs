@@ -14,12 +14,12 @@
 
   You can Create a new Instance by:
   
-	1)Starting the QT Wallet
-	2)Clicking "Wallet Instances" at the bottom of the Wallet
-	3)In the appearing Pop-up Click "Select" 
-	4)Creating a new Folder with any Name you want 
-	5)select this Folder and confirm
-	6)Click Apply
+ 1)Starting the QT Wallet
+ 2)Clicking "Wallet Instances" at the bottom of the Wallet
+ 3)In the appearing Pop-up Click "Select" 
+ 4)Creating a new Folder with any Name you want 
+ 5)select this Folder and confirm
+ 6)Click Apply
 	
   Then the Wallet will let you initialize a new Instance or restore an existing Seed.
   Choose Strong Passwords and Backup your Seed - Stay Safe!
@@ -33,7 +33,7 @@
 
   Switching between Instances follows the same Logic, but instead of creating a new Folder, choose an existing one. 
 
-    You can Switch Instances by:
+  You can Switch Instances by:
   
 	1)Starting the QT Wallet
 	2)Clicking "Wallet Instances" at the bottom of the Wallet
