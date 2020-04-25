@@ -28,7 +28,7 @@ To follow this tutorial, you will need the following:
  If you want to spend those Outputs confirm by clicking "Continue"
  7) Confirm typing your password and wait for the transaction to confirm
  
- *Only Appears if Registered for the HODL Program 
+ * 6) The Dialog only Appears if Registered for the HODL Program 
  
   - **Select the "Send" Tab of your Wallet and enter the Amount you want to send:**
   
