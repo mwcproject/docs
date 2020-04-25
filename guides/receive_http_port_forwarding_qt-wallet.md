@@ -1,5 +1,5 @@
 
-# Receive via HTTP with Port forwarding 
+# Receive via HTTP with a forwarded Port using a QT Wallet  
 **To receive payment via HTTP, you need to configure your HTTP(S) Listener to listen first**
 
 
