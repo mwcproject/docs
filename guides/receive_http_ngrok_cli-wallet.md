@@ -161,7 +161,7 @@ To follow this tutorial, you will need the following:
         
          mwc-wallet info
    
-  > The recipient needs **to wait at least 2 minutes to see the transactions statue switches to ```AWAITING CONFIRMATION```.**
+  > The recipient needs **to wait at least 2 minutes to see the transactions statusswitches to ```AWAITING CONFIRMATION```.**
   
   ![unconfirmed](/static/img/ngrok6.png "unconfirmed")
   

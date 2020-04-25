@@ -111,7 +111,7 @@ Make sure to have the MWC wallet open and running. An Example Address would be  
   <br />
 
 
-- **To check the current statue of the transaction go in the _Transaction_ tab. As we saw before the transaction still have no confirmation yet, you will need at least to wait 2 min to see it as confirmed.**
+- **To check the current status of the transaction go in the _Transaction_ tab. As we saw before the transaction still have no confirmation yet, you will need at least to wait 2 min to see it as confirmed.**
 
 ![unconfirmed](/static/img/gui10.png "Unconfirmed")
 
