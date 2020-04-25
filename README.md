@@ -12,6 +12,16 @@ Please see the different Linked MD Files to find the Information you are searchi
 
 - [HTTP NGrok CLI Wallet](receive_http_ngrok_cli-wallet.md)
 
+## Sending Funds
+
+- [HTTP QT Wallet](send_http_qt-wallet.md)
+
+- [HTTP NGrok CLI Wallet](send_http_cli-wallet.md)
+
+- [File QT Wallet](send_file_qt-wallet.md)
+
+- [File NGrok CLI Wallet](send_file_cli-wallet.md)
+
 ## Restore from Seed / Troubleshooting
 
 - [Restore from Seed QT Wallet](restore_from_seed_qt-wallet.md)
@@ -26,7 +36,7 @@ Please see the different Linked MD Files to find the Information you are searchi
 
 - [Build, Configuring, and Running the Node](https://github.com/mwcproject/mwc-node/blob/master/doc/build.md)
 
-- [Solomining Setup](https://github.com/mwcproject/mwc-node/blob/master/doc/mwc_mining_guide.md)
+- [Solomining Setup](https://www.mwc.mw/mimble-wimble-coin-articles/how-to-solo-mine-the-mimblewimblecoin)
 
 ## Exchange Recommendations
 
