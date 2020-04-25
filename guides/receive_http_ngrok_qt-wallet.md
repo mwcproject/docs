@@ -6,7 +6,7 @@
 ## Contents : 
   * [Requirements](#requirements)
   * [Install and Run Ngrok ](#install-and-run-ngrok )
-  * [Receive via HTTP with ngrok on GUI MWC Wallet](#receive-via-http-with-port-forwarding-on-gui-mwc-wallet)
+  * [Receive via HTTP with ngrok on GUI MWC Wallet](#receive-via-http-with-ngrok-on-gui-mwc-wallet)
   
 ## Requirements
 To follow this tutorial, you will need to download the following file : 
