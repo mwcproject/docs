@@ -63,14 +63,18 @@ To follow this tutorial, you will need the following:
  
   
   ![createtransfile](/static/img/createtransfile.png "Create Transaction File")  
-	
+  <br />
+  <br /> 
+  <br />
+
    - **Download the Anwserfile of the Recipient and Finalize the Transaction by Uploading it in the "Finalize" Tab of the Wallet**  <br /> 
    (Hint: On exchanges you can usually Download them right after)
 
   ![finalizefile](/static/img/finalizefile.png "Finalize Anwserfile")  
  
- 
- 
+  <br />
+  <br /> 
+  <br />
  
  
 - **To check the current statue of the transaction go in the _Transaction_ tab. As we saw before the transaction still have no confirmation yet, you will need at least to wait 2 min to see it as confirmed.**
