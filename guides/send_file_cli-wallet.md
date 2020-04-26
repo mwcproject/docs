@@ -11,7 +11,6 @@ To follow this tutorial, you will need the following:
 
 - Up-to-date mwc-wallet Software: https://github.com/mwcproject/mwc-wallet/releases
 - Up-to-date mwc-node Software: https://github.com/mwcproject/mwc-node/releases
-- An active Internet Connection
 
 ------
 
