@@ -24,12 +24,10 @@ To follow this tutorial, you will need the following:
  2) Open a Commandline or Shell and navigate to your Wallet's Folder
  3) Create a Transactionfile by typing the send Command
  4) Confirm typing your password
- 6*) If you have registered HODL Coins you will see a Dialog to doublecheck the Outputs that are spent.   <br /> 
- If you want to spend those Outputs confirm clicking 
- 8) Exchange your Transactionfile with the recipient or Upload it to your Exchange
- 9) Download the Anwserfile from your recipient or exchange 
- 10) Finalize the transaction by using the finalize command
- 11) Confirm Typing your password and wait for the transaction to confirm
+ 5) Exchange your Transactionfile with the recipient or Upload it to your Exchange
+ 6) Download the Anwserfile from your recipient or exchange 
+ 7) Finalize the transaction by using the finalize command
+ 8) Confirm Typing your password and wait for the transaction to confirm
  
   
   
@@ -41,7 +39,7 @@ To follow this tutorial, you will need the following:
   <br /> 
   <br /> 
   
-  - Open a Commandline or shell in your Walletfolder and use the following command: 
+  - **Open a Commandline or shell in your Walletfolder and use the following command:** 
   
    #### Linux
 
