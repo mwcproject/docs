@@ -25,7 +25,7 @@ To follow this tutorial, you will need the following:
  4) click on "Next"
  5) Enter a Description if you wish and click "Send" 
  6*) If you have registered HODL Coins you will see a Dialog to doublecheck the Outputs that are spent.   <br /> 
- If you want to spend those Outputs confirm clicking 
+ If you want to spend those Outputs confirm clicking "Continue"
  7) Confirm typing your password
  8) Exchange your Transactionfile with the recipient or Upload it to your Exchange
  9) Download the Anwserfile from your recipient or exchange 
