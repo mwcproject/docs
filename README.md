@@ -14,8 +14,6 @@ Please see the different Linked MD Files to find the Information you are searchi
 
 - [Receive over Files using the QT Wallet](guides/receive_file_qt-wallet.md)
 
-- [Receive over Files using the CLI Wallet](guides/receive_file_cli-wallet.md)
-
 ## Sending Funds
 
 - [Send over HTTP using the QT Wallet](guides/send_http_qt-wallet.md)

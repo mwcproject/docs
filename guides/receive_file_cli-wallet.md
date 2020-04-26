@@ -7,7 +7,7 @@
   
 ## Requirements
 To follow this tutorial, you will need the following:
-- Up-to-date MWC CLI-Wallet Software: https://github.com/mwcproject/mwc-qt-wallet/releases
+- Up-to-date MWC QT-Wallet Software: https://github.com/mwcproject/mwc-qt-wallet/releases
 
 
 ------
