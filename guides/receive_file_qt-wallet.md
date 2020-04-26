@@ -52,7 +52,7 @@ To follow this tutorial, you will need the following:
   
 
 
-- **To check the current status of the transaction go in the _Transaction_ tab. As we saw before the transaction still have no confirmation yet, you will need at least to wait 2 min to see it as confirmed.**
+- **To check the current status of the transaction go in the _Transaction_ tab. As we saw before the transaction still has no confirmations yet, you will need at least to wait 2 min to see it as confirmed.**
 
 ![unconfirmed](/static/img/gui10.png "Unconfirmed")
 
@@ -61,7 +61,7 @@ To follow this tutorial, you will need the following:
   <br />
 
 
-- **Once the transaction is confirmed and so received, the recipient needs to wait enough confirmations (set to 10 blocks by default) to spend the fund received recently.**   
+- **Once the transaction is confirmed you need to wait for enough confirmations (set to 10 blocks by default) to spend the fund received recently.**   
 
 ![confirmed](/static/img/gui11.png "awaiting confirmations")
 
@@ -70,7 +70,7 @@ To follow this tutorial, you will need the following:
   <br />
 
 
-- **Once 10 confirmations (10 minutes) are reached, the recipient received his fund and can spend it directly after**.   
+- **Once 10 confirmations (10 minutes) are reached, you can spend it directly after**.   
 
 ![+10confirmation](/static/img/gui12.png "+10 confirmations")
 

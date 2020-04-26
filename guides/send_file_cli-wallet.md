@@ -60,4 +60,4 @@ To follow this tutorial, you will need the following:
    <br /> 
    <br /> 
    
-- **Once the transaction is confirmed and sent, the recipient needs to wait enough confirmations (set to 10 blocks by default) to spend the fund received recently.**   
+- **Once the transaction is confirmed and sent, the recipient needs to wait for enough confirmations (set to 10 blocks by default) to spend the fund received recently.**   
