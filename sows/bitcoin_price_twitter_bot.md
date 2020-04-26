@@ -6,11 +6,13 @@ cryptocurrencies, but this is the first task.
 
 # Features #
 
-1.) Frequency of tweets: [how to configure]
+Configurable values for the following:
 
-2.) Template of tweets: [how to configure]
+1.) Frequency of tweets: Need to be able to easily configure how often price tweets are sent out.
 
-3.) Price feeds: [sources and how to configure, defaults?]
+2.) Template of tweets: Need to be able to easily configure what the message says and include varaibles for BTC price data.
+
+3.) Price feeds: Need to be able to decide where price data comes from.
 
 # Estimated Timeline #
 
