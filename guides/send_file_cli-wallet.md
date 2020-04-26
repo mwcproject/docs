@@ -62,14 +62,3 @@ To follow this tutorial, you will need the following:
    <br /> 
    
 - **Once the transaction is confirmed and sent, the recipient needs to wait enough confirmations (set to 10 blocks by default) to spend the fund received recently.**   
-
-![confirmed](/static/img/ngrok7.png "confirmed")
-
-  <br />
-  <br /> 
-  <br />
-
-
-- **Once 10 confirmations (10 minutes) are reached, the recipient received his fund and can spend it directly after**.   
-
-![+10confirmation](/static/img/ngrok8.png "+10 confirmations")
