@@ -31,7 +31,7 @@ To follow this tutorial, you will need the following:
  Make sure to replace the path and filename to point to the Transactionfile you want to receive!
 	
 	  
-   #### Linux
+ #### Linux
 
 	mwc-wallet receive -i $HOME/Downloads/transaction.tx
 	<enter password>
