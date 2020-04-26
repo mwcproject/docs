@@ -30,7 +30,7 @@ To follow this tutorial, you will need the following:
  
   
   
-  - **Start your Node and make sure it is fully snychronised before continuing!**
+- **Start your Node and make sure it is fully snychronised before continuing!**
   
   ![nodesynced](/static/img/nodesynced.png "Node Fully Synced")  
   
@@ -38,7 +38,7 @@ To follow this tutorial, you will need the following:
   <br /> 
   <br /> 
   
-  - **Open a Commandline or shell in your Walletfolder and use the following command:** 
+- **Open a Commandline or shell in your Walletfolder and use the following command:** 
   
    #### Linux
 

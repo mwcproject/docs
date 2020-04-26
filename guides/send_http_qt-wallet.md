@@ -29,7 +29,7 @@ To follow this tutorial, you will need the following:
  7) Confirm typing your password and wait for the transaction to confirm
  
  
-  - **Select the "Send" Tab of your Wallet and enter the Amount you want to send:**
+- **Select the "Send" Tab of your Wallet and enter the Amount you want to send:**
   
   ![selectsend](/static/img/selectsend.png "Select Send")  
   
@@ -37,7 +37,7 @@ To follow this tutorial, you will need the following:
   <br /> 
   <br /> 
   
-  - **Enter the receiving Address and click "Send"**
+- **Enter the receiving Address and click "Send"**
   
    ![sendtransaction](/static/img/sendtransaction.png "sendtransaction")  
    
@@ -45,7 +45,7 @@ To follow this tutorial, you will need the following:
    <br /> 
    <br /> 
    
-  - **If you got HODL'ed Outputs, check if you want to spend those and Confirm by clicking "Continue" and enter your password**
+- **If you got HODL'ed Outputs, check if you want to spend those and Confirm by clicking "Continue" and enter your password**
   
    ![hodldialog](/static/img/hodldialog.png "HODL Dialog")  
   

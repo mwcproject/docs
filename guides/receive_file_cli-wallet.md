@@ -27,7 +27,7 @@ To follow this tutorial, you will need the following:
   <br />
   <br /> 
   
-  - Once your Node is running and fully synced you can receive the transactionfile with the following Command: 
+- **Once your Node is running and fully synced you can receive the transactionfile with the following Command:**
  Make sure to replace the path and filename to point to the Transactionfile you want to receive!
 	
 	  
@@ -47,7 +47,7 @@ To follow this tutorial, you will need the following:
   <br /> 
   <br /> 
   
-  - **Upload the created Responsefile to your exchange or the Sender and wait for him to finalize the transaction**
+- **Upload the created Responsefile to your exchange or the Sender and wait for him to finalize the transaction**
   <br />
   <br /> 
   <br /> 

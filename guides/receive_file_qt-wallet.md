@@ -25,7 +25,7 @@ To follow this tutorial, you will need the following:
   <br />
   <br /> 
   
-  - If you received a Transactionfile simply click on the "Receive MWC by File" Button in the "receive" Tab of the Wallet
+- **If you received a Transactionfile simply click on the "Receive MWC by File" Button in the "receive" Tab of the Wallet**
   
   ![receivefileqt](/static/img/receivefileqt.png "Receive Transaction File")  
   
@@ -33,7 +33,7 @@ To follow this tutorial, you will need the following:
   <br /> 
   <br /> 
   
-  - Click on "Generate Response" and confirm by typing your password
+- **Click on "Generate Response" and confirm by typing your password**
  
   
    ![generateresponse](/static/img/generateresponse1.png "Generate Response")  
@@ -42,7 +42,7 @@ To follow this tutorial, you will need the following:
    <br /> 
    <br /> 
    
-  - Note down the Location of the anwserfile and Upload it to the exchange or Sender.
+- **Note down the Location of the anwserfile and Upload it to the exchange or Sender.**
   
   ![generateredsponse](/static/img/generateresponse2.png "Generate Response")
   

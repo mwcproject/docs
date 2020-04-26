@@ -27,7 +27,7 @@ To follow this tutorial, you will need the following:
  
   
   
-  - **Start your Node and make sure it is fully snychronised before continuing!**
+- **Start your Node and make sure it is fully snychronised before continuing!**
   
   ![nodesynced](/static/img/nodesynced.png "Node Fully Synced")  
   
@@ -35,7 +35,7 @@ To follow this tutorial, you will need the following:
   <br /> 
   <br /> 
   
-  - **Open a Commandline or shell in your Walletfolder and execute the following command:** 
+- **Open a Commandline or shell in your Walletfolder and execute the following command:** 
   
    #### Linux
 
@@ -58,4 +58,4 @@ To follow this tutorial, you will need the following:
    <br /> 
    <br /> 
    
-  - **Once the transaction is confirmed and sent, the recipient needs to wait enough confirmations (set to 10 blocks by default) to spend the fund received recently.**   
+- **Once the transaction is confirmed and sent, the recipient needs to wait enough confirmations (set to 10 blocks by default) to spend the fund received recently.**   

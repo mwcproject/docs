@@ -33,7 +33,7 @@ To follow this tutorial, you will need the following:
  11) Confirm Typing your password and wait for the transaction to confirm
  
  
-  - **Select the "Send" Tab of your Wallet, select the File Method and enter the Amount you want to send:**
+- **Select the "Send" Tab of your Wallet, select the File Method and enter the Amount you want to send:**
   
   ![selectsendfile](/static/img/selectsendfile.png "Select Sendfile")  
   
@@ -41,7 +41,7 @@ To follow this tutorial, you will need the following:
   <br /> 
   <br /> 
   
-  - **Enter a Description if you want to and click "Send"**
+- **Enter a Description if you want to and click "Send"**
   
    ![sendtransactionfile](/static/img/sendtransactionfile.png "sendtransactionfile")  
    
@@ -49,7 +49,7 @@ To follow this tutorial, you will need the following:
    <br /> 
    <br /> 
    
-  - **If you got HODL'ed Outputs, check if you want to spend those and Confirm clicking "Continue"**
+- **If you got HODL'ed Outputs, check if you want to spend those and Confirm clicking "Continue"**
   
    ![hodldialog](/static/img/hodldialog.png "HODL Dialog")  
   
@@ -57,7 +57,7 @@ To follow this tutorial, you will need the following:
   <br /> 
   <br /> 
   
-   - **Choose a Name for your Transactionfile and Exchange it with the recipient and wait to receive his Anwserfile**  <br /> 
+- **Choose a Name for your Transactionfile and Exchange it with the recipient and wait to receive his Anwserfile**  <br /> 
    (Hint: On Exchanges you can usually Download them right after)
  
   
