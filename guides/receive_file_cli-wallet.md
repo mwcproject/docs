@@ -21,10 +21,17 @@ To follow this tutorial, you will need the following:
  2) Open a Commandline or Shell and navigate to your Wallet's Folder
  3) Receive the Transactionfile and genereate a response 
  4) Upload the response to the Exchange or Sender and wait for him to finalize the transaction
-
  
   
   <br />
+  <br /> 
+  
+- **Start your Node and make sure it is fully snychronised before continuing!**
+  
+  ![nodesynced](/static/img/nodesynced.png "Node Fully Synced")  
+  
+  <br />
+  <br /> 
   <br /> 
   
 - **Once your Node is running and fully synced you can receive the transactionfile with the following Command:**
