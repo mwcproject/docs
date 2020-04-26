@@ -16,7 +16,7 @@ To follow this tutorial, you will need the following:
 ## Install and Run Ngrok 
 
  
- First let's lay out the overall procedure, a Detailed description with Images is below.
+ First let's lay out the overall procedure, more detailed instructions with screenshots are below:
  
  1) Start NGrok
  2) Enable the HTTP Listener

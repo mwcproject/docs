@@ -17,7 +17,7 @@ To follow this tutorial, you will need the following:
 ## Send via File using the GUI Wallet
 
  
- First let's lay out the overall procedure, a Detailed description with Images is below.
+ First let's lay out the overall procedure, more detailed instructions with screenshots are below:
   
  1) Select the "Send" Tab
  2) Select the "File" Method

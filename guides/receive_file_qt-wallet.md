@@ -15,7 +15,7 @@ To follow this tutorial, you will need the following:
 ## Receive via Files using a GUI MWC Wallet
 
  
- First let's lay out the overall procedure, a Detailed description with Images is below.
+ First let's lay out the overall procedure, more detailed instructions with screenshots are below:
  
  1) Receive the Transactionfile and generate a respone
  2) Upload the Response to the Exchange or Sender

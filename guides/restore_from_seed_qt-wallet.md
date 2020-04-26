@@ -19,7 +19,7 @@ If the Error persists, Go for the second Option and Wipe Chaindata too!
  
  ### Restore and keep Chaindata 
  
- First let's lay out the overall procedure, the needed Commmands to accomplish this are below.
+ First let's lay out the overall procedure, more detailed instructions with screenshots are below:
  
  1) [Create a new Wallet Instance](create_Instance_qt-wallet.md)
  2) Make sure to restore an existing Seed instead of creating a new one

@@ -17,7 +17,7 @@ To follow this tutorial, you will need the following:
 ## Receive via HTTP with Port Forwarding on GUI MWC Wallet
 
  
- First let's lay out the overall procedure, a Detailed description with Images is below.
+ First let's lay out the overall procedure, more detailed instructions with screenshots are below:
  
  1) Enable the HTTP Listener
  2) Request the Payment
