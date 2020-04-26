@@ -35,7 +35,7 @@ To follow this tutorial, you will need the following:
   <br /> 
   
 - **Once your Node is running and fully synced you can receive the transactionfile with the following Command:**
- Make sure to replace the path and filename to point to the Transactionfile you want to receive!
+  <br />Make sure to replace the path and filename to point to the Transactionfile you want to receive!
 	
 	  
  #### Linux
