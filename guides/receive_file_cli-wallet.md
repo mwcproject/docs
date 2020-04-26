@@ -47,8 +47,10 @@ To follow this tutorial, you will need the following:
   <br /> 
   <br /> 
   
-  - Upload the created Responsefile to your exchange or the Sender and wait for him to finalize the transaction
- 
+  - **Upload the created Responsefile to your exchange or the Sender and wait for him to finalize the transaction**
+  <br />
+  <br /> 
+  <br /> 
 
 - **To check the current status of the transaction go in the _Transaction_ tab. As we saw before the transaction still have no confirmation yet, you will need at least to wait 2 min to see it as confirmed.**
 
