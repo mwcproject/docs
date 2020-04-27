@@ -8,6 +8,8 @@
   * [Restore and wipe Chaindata](#Restore-and-wipe-Chaindata)
 	
 ## Preamble
+Before you start, make sure your Software is up to date!
+
 Some errors might require you to restore your Wallet from Seedphrase.
 If you have a transaction Error and can't seem to resolve it, restoring from Seed is the way to go!
 
@@ -17,7 +19,7 @@ If the Error persists, Go for the second Option and Wipe Chaindata too!
   
  ### Restore and keep Chaindata 
  
- First let's lay out the overall procedure, the needed Commmands to accomplish this are below.
+ First let's lay out the overall procedure, more detailed instructions with screenshots are below:
  
  1) Create recovery directory
  2) Copy Node api secret into your recovery Directory

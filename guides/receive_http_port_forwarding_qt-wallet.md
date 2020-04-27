@@ -1,5 +1,4 @@
-
-# Receive via HTTP with Port forwarding 
+# Receive via HTTP with a forwarded Port using a QT Wallet  
 **To receive payment via HTTP, you need to configure your HTTP(S) Listener to listen first**
 
 
@@ -8,15 +7,23 @@
   * [Receive via HTTP with Port Forwarding on GUI MWC Wallet](#Receive-via-HTTP-with-Port-Forwarding-on-GUI-MWC-Wallet)
   
 ## Requirements
-To follow this tutorial, you will need to download the following file : 
-- GUI MWC Wallet : https://github.com/mwcproject/mwc-qt-wallet/releases
-- You already Forwarded port 3415 to your local PC (See https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/)
+To follow this tutorial, you will need the following:
+- Up-to-date MWC QT-Wallet Software: https://github.com/mwcproject/mwc-qt-wallet/releases
+- A Forwarded port on your Router forwarding Port 3415 to your local PC (See https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/)
 
 
 ------
 
 ## Receive via HTTP with Port Forwarding on GUI MWC Wallet
 
+ 
+ First let's lay out the overall procedure, more detailed instructions with screenshots are below:
+ 
+ 1) Enable the HTTP Listener
+ 2) Request the Payment
+ 3) Keep the Wallet open until the payment was received
+ 
+  
   <br />
   <br /> 
   
@@ -104,7 +111,7 @@ Make sure to have the MWC wallet open and running. An Example Address would be  
   <br />
 
 
-- **To check the current statue of the transaction go in the _Transaction_ tab. As we saw before the transaction still have no confirmation yet, you will need at least to wait 2 min to see it as confirmed.**
+- **To check the current status of the transaction go in the _Transaction_ tab. As we saw before the transaction still have no confirmation yet, you will need at least to wait 2 min to see it as confirmed.**
 
 ![unconfirmed](/static/img/gui10.png "Unconfirmed")
 

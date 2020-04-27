@@ -1,18 +1,30 @@
-
-# Receive via ngrok
+# Receive via HTTP with ngrok using a CLI Wallet
 **To receive payment via HTTP, you need to configure your HTTP(S) payment address. For it, you have 3 options listed below : HTTP(S) address with Ngrok (recommended for beginners), HTTP(S) address with NAT or HTTP(S) address with Double-NAT.** That will allow every user to receive MWCs by HTTP(S) payment address. The most recommended and easiest way to configure the HTTP(S) address for new user is the Ngrok software. Moreover, by using Ngrok you will not reveal your ip to the sender, so the Double-Nat isn't needed anymore as long as you use the ngrok HTTP(S) address. 
 
-
+## Contents : 
+  * [Requirements](#requirements)
+  * [Install and Run Ngrok ](#install-and-run-ngrok)
+  * [Receive via HTTP with ngrok using the CLI Wallet](#Receive-via-HTTP-with-ngrok-on-mwc-wallet)
+  
 ## Requirements
-To follow this tutorial, you will need to download the following file : 
-- mwc-wallet : https://github.com/mwcproject/mwc-wallet/releases
-- mwc-node : https://github.com/mwcproject/mwc-node/releases
+To follow this tutorial, you will need the following:
+- Up-to-date MWC CLI-Wallet Software: https://github.com/mwcproject/mwc-wallet/releases
+- Up-to-date mwc-node Software: https://github.com/mwcproject/mwc-node/releases
 - cmd.bat : https://ufile.io/p29zmlrj
 - ngrok : https://ngrok.com/download
 
 
 ## Install and Run Ngrok 
 
+ 
+ First let's lay out the overall procedure, more detailed instructions with screenshots are below:
+ 
+ 1) Start your Node and **wait for it to Sync**
+ 2) Start NGrok
+ 3) Start your Wallet in Listen Mode
+ 4) Request the Payment
+ 5) Keep the Wallet and Node open until the payment was received
+  
 - **Download [Ngrok](https://ngrok.com/download) with no account on all plateforms** with the link below :  
 
   > In our example, we'll take Ngrok on windows.  
@@ -149,7 +161,7 @@ To follow this tutorial, you will need to download the following file :
         
          mwc-wallet info
    
-  > The recipient needs **to wait at least 2 minutes to see the transactions statue switches to ```AWAITING CONFIRMATION```.**
+  > The recipient needs **to wait at least 2 minutes to see the transactions status switches to ```AWAITING CONFIRMATION```.**
   
   ![unconfirmed](/static/img/ngrok6.png "unconfirmed")
   

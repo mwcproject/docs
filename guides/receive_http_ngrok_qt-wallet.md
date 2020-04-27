@@ -1,21 +1,29 @@
-
-# Receive via HTTP with ngrok
+# Receive via HTTP with ngrok using a QT Wallet
 **To receive payment via HTTP, you need to configure your HTTP(S) payment address. For it, you have 3 options listed below : HTTP(S) address with Ngrok (recommended for beginners), HTTP(S) address with NAT or HTTP(S) address with Double-NAT.** That will allow every user to receive MWCs by HTTP(S) payment address. The most recommended and easiest way to configure the HTTP(S) address for new user is the Ngrok software. Moreover, by using Ngrok you will not reveal your ip to the sender, so the Double-Nat isn't needed anymore as long as you use the ngrok HTTP(S) address.  
 
 
 ## Contents : 
   * [Requirements](#requirements)
   * [Install and Run Ngrok ](#install-and-run-ngrok )
-  * [Receive via HTTP with ngrok on GUI MWC Wallet](#receive-via-http-with-port-forwarding-on-gui-mwc-wallet)
+  * [Receive via HTTP with ngrok on GUI MWC Wallet](#receive-via-http-with-ngrok-on-gui-mwc-wallet)
   
 ## Requirements
-To follow this tutorial, you will need to download the following file : 
-- GUI MWC Wallet : https://github.com/mwcproject/mwc-qt-wallet/releases
-- ngrok : https://ngrok.com/download
+To follow this tutorial, you will need the following:
+- Up-to-date MWC QT-Wallet Software: https://github.com/mwcproject/mwc-qt-wallet/releases
+- ngrok: https://ngrok.com/download
 
 
 ## Install and Run Ngrok 
 
+ 
+ First let's lay out the overall procedure, more detailed instructions with screenshots are below:
+ 
+ 1) Start NGrok
+ 2) Enable the HTTP Listener
+ 3) Request the Payment
+ 4) Keep the Wallet open until the payment was received
+ 
+  
 - **Download [Ngrok](https://ngrok.com/download) with no account on all plateforms** with the link below :  
 
   > In our example, we'll take Ngrok on windows.  
@@ -181,7 +189,7 @@ To follow this tutorial, you will need to download the following file :
   <br />
 
 
-- **To check the current statue of the transaction go in the _Transaction_ tab. As we saw before the transaction still have no confirmation yet, you will need at least to wait 2 min to see it as confirmed.**
+- **To check the current status of the transaction go in the _Transaction_ tab. As we saw before the transaction still have no confirmation yet, you will need at least to wait 2 min to see it as confirmed.**
 
 ![unconfirmed](/static/img/gui10.png "Unconfirmed")
 
@@ -190,7 +198,7 @@ To follow this tutorial, you will need to download the following file :
   <br />
 
 
-- **Once the transaction is confirmed and so received, the recipient needs to wait enough confirmations (set to 10 blocks by default) to spend the fund received recently.**   
+- **Once the transaction is confirmed you need to wait for enough confirmations (set to 10 blocks by default) to spend the fund received recently.**   
 
 ![confirmed](/static/img/gui11.png "awaiting confirmations")
 
@@ -199,9 +207,11 @@ To follow this tutorial, you will need to download the following file :
   <br />
 
 
-- **Once 10 confirmations (10 minutes) are reached, the recipient received his fund and can spend it directly after**.   
+- **Once 10 confirmations (10 minutes) are reached, you can spend it directly after**.   
 
 ![+10confirmation](/static/img/gui12.png "+10 confirmations")
+
+
 
 
 
