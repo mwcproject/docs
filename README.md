@@ -36,6 +36,9 @@ Please see the different Linked MD Files to find the Information you are searchi
 
 - [Create/Manage Instances QT Wallet](guides/create_Instance_qt-wallet.md)
 
+- [Create/Manage Cold Wallet](https://github.com/mwcproject/mwc-qt-wallet/blob/master/DOC/cold_wallet.md)
+
+
 ## Node Management
 
 - [Build, Configuring, and Running the Node](https://github.com/mwcproject/mwc-node/blob/master/doc/build.md)
