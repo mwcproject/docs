@@ -16,6 +16,9 @@ Please see the different Linked MD Files to find the Information you are searchi
 
 - [Receive over Files using the CLI Wallet](guides/receive_file_cli-wallet.md)
 
+- [Receive over Files using a cold Wallet](https://github.com/mwcproject/mwc-qt-wallet/blob/master/DOC/cold_wallet.md#receivesend-mwc)
+
+
 ## Sending Funds
 
 - [Send over HTTP using the QT Wallet](guides/send_http_qt-wallet.md)
@@ -26,6 +29,8 @@ Please see the different Linked MD Files to find the Information you are searchi
 
 - [Send over Files using the CLI Wallet](guides/send_file_cli-wallet.md)
 
+- [Send over Files using a cold Wallet](https://github.com/mwcproject/mwc-qt-wallet/blob/master/DOC/cold_wallet.md#receivesend-mwc)
+
 ## Restore from Seed / Troubleshooting
 
 - [Restore a QT Wallet from Seed](guides/restore_from_seed_qt-wallet.md)
@@ -35,6 +40,11 @@ Please see the different Linked MD Files to find the Information you are searchi
 ## Managing Funds
 
 - [Create/Manage Instances QT Wallet](guides/create_Instance_qt-wallet.md)
+
+- [Create/Manage Cold Wallet](https://github.com/mwcproject/mwc-qt-wallet/blob/master/DOC/cold_wallet.md)
+
+- [Claim HODL Rewards](https://github.com/mwcproject/mwc-qt-wallet/blob/master/DOC/hodl_claims.md)
+
 
 ## Node Management
 
