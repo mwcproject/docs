@@ -27,7 +27,7 @@ To follow this tutorial, you will need the following:
   You can enable the Output locking Feature by:
   
  1) Starting the QT Wallet
- 2) Clicking the "Gear Icon" and selectig "Wallet configuration" at the top of your wallet 
+ 2) Clicking the "Gear Icon" and selecting "Wallet configuration" at the top of your wallet 
  3) In the Settings page make sure to select the "Wallet" Submenu
  4) Enable the Option "Enable manual Outputs Locking from spending" 
 	
@@ -43,7 +43,7 @@ To follow this tutorial, you will need the following:
   You can Lock Outputs by:
   
  1) Starting the QT Wallet
- 2) Clicking the "Gear Icon" and selectig "Outputs" at the top of your wallet 
+ 2) Clicking the "Gear Icon" and selecting "Outputs" at the top of your wallet 
  3) In the Outputs windows click on the locked column of the Output you want to lock
 
 
