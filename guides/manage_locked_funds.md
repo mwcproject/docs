@@ -6,7 +6,8 @@
   If you want to spend your HODL rewards but are worried to move your HODL Funds, make sure to lock them. 
   
   
-  To use this feature we need to enable it first before we can lock wanted Outputs.
+  To use this feature we need to enable it first before we can lock wanted Outputs. <br>
+  **Make sure you are on Version 1.0.18 or above**
 
 
 ## Contents : 
@@ -16,7 +17,7 @@
   
 ## Requirements
 To follow this tutorial, you will need the following:
-- Up-to-date MWC QT-Wallet Software: https://github.com/mwcproject/mwc-qt-wallet/releases
+- **Up-to-date** MWC QT-Wallet Software: https://github.com/mwcproject/mwc-qt-wallet/releases
 
 
 ------
