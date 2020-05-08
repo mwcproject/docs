@@ -45,6 +45,8 @@ Please see the different Linked MD Files to find the Information you are searchi
 
 - [Claim HODL Rewards](https://github.com/mwcproject/mwc-qt-wallet/blob/master/DOC/hodl_claims.md)
 
+- [Lock Outputs to prevent spending](guides/manage_locked_funds.md)
+
 
 ## Node Management
 
