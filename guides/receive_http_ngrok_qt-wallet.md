@@ -100,7 +100,7 @@ To follow this tutorial, you will need the following:
   <br />
   <br /> 
   
-  - By default, the HTTP listener is disable, as you can see below.
+  - By default, the HTTP listener is disabled, as you can see below.
   
   ![httpdisable](/static/img/gui1.png "HTTP listener offline")  
   
@@ -108,7 +108,7 @@ To follow this tutorial, you will need the following:
   <br /> 
   <br /> 
   
-  - To enable the HTTP listener, click on the on the gear up, then click on `mwc mq` to go in the settings of the different methods of payement.
+  - To enable the HTTP listener, click on the on the gear Icon at the Top of your Wallet, then click on `listeners` to get into the "listener" Page.
   
    ![settings](/static/img/gui2.png "go in the setting the different methods of payement")  
    
