@@ -21,7 +21,7 @@ To follow this tutorial, you will need the following:
  
  1) Enable the HTTP Listener
  2) Request the Payment
- 3) Keep the Wallet open until the payment was received
+ 3) Dont close the wallet until the payment was received
  
   
   <br />
@@ -35,9 +35,9 @@ To follow this tutorial, you will need the following:
   <br /> 
   <br /> 
   
-  - To enable the HTTP listener, click on the on the gear Icon at the Top of your Wallet, then click on `listeners` to get into the "listener" Page.
+  - To enable the HTTP listener click the gear Icon at the Top right of your Wallet, then click on `listeners` to get into the "listener" Page.
   
-   ![settings](/static/img/gui2.png "go in the setting the different methods of payement")  
+   ![settings](/static/img/gui2.png "listener Page")  
    
    <br />
    <br /> 
@@ -51,9 +51,9 @@ To follow this tutorial, you will need the following:
   <br /> 
   <br /> 
   
-  - A tab named _**FOREIGN API LISTENER**_ open, tick the case of _**Activate Foreign REST API listener**_, to enable the HTTP listener. 
+  - A tab named _**FOREIGN API LISTENER**_ will open, in there tick the checkbox _**Activate Foreign REST API listener**_, to enable the HTTP listener. 
+  
   - Make sure to edit the _**Listening Address**_ to `0.0.0.0:3415`, then you can click on _**Apply**_.
-
 
   ![enable](/static/img/apilistenerconfig.png "FOREIGN API LISTENER")  
   
