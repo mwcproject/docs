@@ -1,1 +1,1 @@
-**Please Check [this Article in the Wiki](../../wiki/Receive-via-HTTP-with-ngrok-using-a-CLI-Wallet)**<br>(The Links and Docs within this Repo have moved into [the Wiki!]((../../wiki))
+**Please Check [this Article in the Wiki](../../../wiki/Receive-via-HTTP-with-ngrok-using-a-CLI-Wallet)**<br>(The Links and Docs within this Repo have moved into [the Wiki!]((../../../wiki))
