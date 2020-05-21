@@ -1,0 +1,430 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="API documentation for the Rust `ForeignRpc` trait in crate `grin_wallet_api`."><meta name="keywords" content="rust, rustlang, rust-lang, ForeignRpc"><title>grin_wallet_api::ForeignRpc - Rust</title><link rel="stylesheet" type="text/css" href="../normalize.css"><link rel="stylesheet" type="text/css" href="../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" type="text/css" href="../dark.css"><link rel="stylesheet" type="text/css" href="../light.css" id="themeStyle"><script src="../storage.js"></script><noscript><link rel="stylesheet" href="../noscript.css"></noscript><link rel="shortcut icon" href="../favicon.ico"><style type="text/css">#crate-search{background-image:url("../down-arrow.svg");}</style></head><body class="rustdoc trait"><!--[if lte IE 8]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="sidebar"><div class="sidebar-menu">&#9776;</div><a href='../grin_wallet_api/index.html'><div class='logo-container'><img src='../rust-logo.png' alt='logo'></div></a><p class='location'>Trait ForeignRpc</p><div class="sidebar-elems"><div class="block items"><a class="sidebar-title" href="#required-methods">Required Methods</a><div class="sidebar-links"><a href="#tymethod.build_coinbase">build_coinbase</a><a href="#tymethod.check_version">check_version</a><a href="#tymethod.finalize_invoice_tx">finalize_invoice_tx</a><a href="#tymethod.receive_tx">receive_tx</a><a href="#tymethod.verify_slate_messages">verify_slate_messages</a></div><a class="sidebar-title" href="#implementors">Implementors</a><a class="sidebar-title" href="#implementations">Trait Implementations</a><div class="sidebar-links"><a href="#impl-Handler">Handler</a></div></div><p class='location'><a href='index.html'>grin_wallet_api</a></p><script>window.sidebarCurrent = {name: 'ForeignRpc', ty: 'trait', relpath: ''};</script><script defer src="sidebar-items.js"></script></div></nav><div class="theme-picker"><button id="theme-picker" aria-label="Pick another theme!"><img src="../brush.svg" width="18" alt="Pick another theme!"></button><div id="theme-choices"></div></div><script src="../theme.js"></script><nav class="sub"><form class="search-form"><div class="search-container"><div><select id="crate-search"><option value="All crates">All crates</option></select><input class="search-input" name="search" disabled autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"></div><a id="settings-menu" href="../settings.html"><img src="../wheel.svg" width="18" alt="Change settings"></a></div></form></nav><section id="main" class="content"><h1 class='fqn'><span class='out-of-band'><span id='render-detail'><a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class='inner'>&#x2212;</span>]</a></span><a class='srclink' href='../src/grin_wallet_api/foreign_rpc.rs.html#31-521' title='goto source code'>[src]</a></span><span class='in-band'>Trait <a href='index.html'>grin_wallet_api</a>::<wbr><a class="trait" href=''>ForeignRpc</a></span></h1><div class="docblock type-decl hidden-by-usual-hider"><pre class='rust trait'>pub trait ForeignRpc {
+    fn <a href='#tymethod.check_version' class='fnname'>check_version</a>(&amp;self) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;VersionInfo, ErrorKind&gt;;
+<div class='item-spacer'></div>    fn <a href='#tymethod.build_coinbase' class='fnname'>build_coinbase</a>(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;self, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;block_fees: &amp;BlockFees<br>&nbsp;&nbsp;&nbsp;&nbsp;) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;VersionedCoinbase, ErrorKind&gt;;
+<div class='item-spacer'></div>    fn <a href='#tymethod.verify_slate_messages' class='fnname'>verify_slate_messages</a>(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;self, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;slate: VersionedSlate<br>&nbsp;&nbsp;&nbsp;&nbsp;) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>, ErrorKind&gt;;
+<div class='item-spacer'></div>    fn <a href='#tymethod.receive_tx' class='fnname'>receive_tx</a>(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;self, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;slate: VersionedSlate, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dest_acct_name: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;message: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;VersionedSlate, ErrorKind&gt;;
+<div class='item-spacer'></div>    fn <a href='#tymethod.finalize_invoice_tx' class='fnname'>finalize_invoice_tx</a>(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;self, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;slate: VersionedSlate<br>&nbsp;&nbsp;&nbsp;&nbsp;) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;VersionedSlate, ErrorKind&gt;;
+}</pre></div><div class='docblock'><p>Public definition used to generate Foreign jsonrpc api.</p>
+<ul>
+<li>When running <code>mwc-wallet listen</code> with defaults, the V2 api is available at
+<code>localhost:3415/v2/foreign</code></li>
+<li>The endpoint only supports POST operations, with the json-rpc request as the body</li>
+</ul>
+</div>
+            <h2 id='required-methods' class='small-section-header'>Required methods<a href='#required-methods' class='anchor'></a></h2><div class='methods'><h3 id='tymethod.check_version' class='method'><code id='check_version.v'>fn <a href='#tymethod.check_version' class='fnname'>check_version</a>(&amp;self) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;VersionInfo, ErrorKind&gt;</code></h3><div class='docblock'><p>Networked version of <a href="struct.Foreign.html#method.check_version">Foreign::check_version</a>.</p>
+<h1 id="json-rpc-example" class="section-header"><a href="#json-rpc-example">Json rpc example</a></h1>
+<div class="example-wrap"><pre class="rust rust-example-rendered">
+{
+	<span class="string">&quot;jsonrpc&quot;</span>: <span class="string">&quot;2.0&quot;</span>,
+	<span class="string">&quot;method&quot;</span>: <span class="string">&quot;check_version&quot;</span>,
+	<span class="string">&quot;id&quot;</span>: <span class="number">1</span>,
+	<span class="string">&quot;params&quot;</span>: []
+}
+{
+	<span class="string">&quot;id&quot;</span>: <span class="number">1</span>,
+	<span class="string">&quot;jsonrpc&quot;</span>: <span class="string">&quot;2.0&quot;</span>,
+	<span class="string">&quot;result&quot;</span>: {
+		<span class="string">&quot;Ok&quot;</span>: {
+			<span class="string">&quot;foreign_api_version&quot;</span>: <span class="number">2</span>,
+			<span class="string">&quot;supported_slate_versions&quot;</span>: [
+				<span class="string">&quot;V3&quot;</span>,
+				<span class="string">&quot;V2&quot;</span>
+			]
+		}
+	}
+}</pre></div>
+</div><h3 id='tymethod.build_coinbase' class='method'><code id='build_coinbase.v'>fn <a href='#tymethod.build_coinbase' class='fnname'>build_coinbase</a>(<br>&nbsp;&nbsp;&nbsp;&nbsp;&amp;self, <br>&nbsp;&nbsp;&nbsp;&nbsp;block_fees: &amp;BlockFees<br>) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;VersionedCoinbase, ErrorKind&gt;</code></h3><div class='docblock'><p>Networked Legacy (non-secure token) version of <a href="struct.Foreign.html#method.build_coinbase">Foreign::build_coinbase</a>.</p>
+<h1 id="json-rpc-example-1" class="section-header"><a href="#json-rpc-example-1">Json rpc example</a></h1>
+<div class="example-wrap"><pre class="rust rust-example-rendered">
+{
+	<span class="string">&quot;jsonrpc&quot;</span>: <span class="string">&quot;2.0&quot;</span>,
+	<span class="string">&quot;method&quot;</span>: <span class="string">&quot;build_coinbase&quot;</span>,
+	<span class="string">&quot;id&quot;</span>: <span class="number">1</span>,
+	<span class="string">&quot;params&quot;</span>: [
+		{
+			<span class="string">&quot;fees&quot;</span>: <span class="number">0</span>,
+			<span class="string">&quot;height&quot;</span>: <span class="number">0</span>,
+			<span class="string">&quot;key_id&quot;</span>: <span class="ident">null</span>
+		}
+	]
+}
+{
+  <span class="string">&quot;id&quot;</span>: <span class="number">1</span>,
+  <span class="string">&quot;jsonrpc&quot;</span>: <span class="string">&quot;2.0&quot;</span>,
+  <span class="string">&quot;result&quot;</span>: {
+	<span class="string">&quot;Ok&quot;</span>: {
+	  <span class="string">&quot;kernel&quot;</span>: {
+		<span class="string">&quot;excess&quot;</span>: <span class="string">&quot;095987fa1274901ab624386e9f76b39c6c27a6f5d11782bb06e3a55361d925e418&quot;</span>,
+		<span class="string">&quot;excess_sig&quot;</span>: <span class="string">&quot;8f07ddd5e9f5179cff19486034181ed76505baaad53e5d994064127b56c5841b49e2040e02da3d79a3bd694d522754f118a064d62f076e87a161059222141c2c&quot;</span>,
+		<span class="string">&quot;features&quot;</span>: <span class="string">&quot;Coinbase&quot;</span>,
+		<span class="string">&quot;fee&quot;</span>: <span class="string">&quot;0&quot;</span>,
+		<span class="string">&quot;lock_height&quot;</span>: <span class="string">&quot;0&quot;</span>
+	  },
+	  <span class="string">&quot;key_id&quot;</span>: <span class="string">&quot;0300000000000000000000000400000000&quot;</span>,
+	  <span class="string">&quot;output&quot;</span>: {
+		<span class="string">&quot;commit&quot;</span>: <span class="string">&quot;08f9451ff0b17a7d3b905efacc1b51ded6a77dc17aedd4959d46f6509c3298b8c7&quot;</span>,
+		<span class="string">&quot;features&quot;</span>: <span class="string">&quot;Coinbase&quot;</span>,
+		<span class="string">&quot;proof&quot;</span>: <span class="string">&quot;d00084fe7929cd897b3b6cc28b7e8c9bee8ccccae3189ea0713f90a10e2a8011f5cb0fd1d5ea057c126485a66002a0a283238dd2157bb6747f77202701a1350104e35c2aed5f79ab73e0195d39a320d95dd5fb2294eb2093f4495377d51a74e94b9972431d5159e7c5ac90ed2278deae16c485dba52356e7ee08e08574b37a2e1c1e276ea5d0b8ec07408b1cae285c5c3bbdd123c5a17ee971979f86a0b70b9e404292b97f75fd336b7f510deeed9b6465a48a346f48f9529a1b38b46b99976ed96c0e92ac35ab75bff2afda5ff0f7ad865dd20c17ed7940c4a162e7d83d04becc4075dde76d791ccf9a09b924e7edcf01355260c3e26e23cb88cb49e5b2a38a008eb584dac92635bcc6d6bfaa6bda233d965f8cb8d688cfb7f2c9bd4f2a298b95ac906ef4878ad4bc6a1a71c18e60bac79566031bbba89f62b8890f393787bd9197924d21e14e21936da721fbf0c50c4eef71c3f9fe6041ab07159770ca322afaf903397097bb4054b54069006799847db18415736cd931aced1f2320769c32ed2e1bce06ed3b3ccc002b026abf9e1771cf10f7759922ce4a2cfae3ce8d83ee3fcb8e065a80db6f465562034aac2ce91defe82a3c9e4104c00c565403deab54256f5d01cc63518fba667e23d1c417a82310264724315890fe0455134ed00a702dcf06832edc6b81dab03f611e95486f2cf4139b0ea777081f19b037c356902d44afcd06f5bf5a86ec5b09b138b384c4119e101c0d6f7d2119691ce8b15642bb90fc13a617731d55022d5749baa19283c638b25c451070c21a7adeff73f4710d59f2422869c3bcc01e981483c57c2092f2b5ae014f6737a51ab90c770623a7154d619342ccda0d888fd7721231c6d1bbd56fbd5053d93c15e7cc0758b82edf343ff874e69e2dc6af6c4b16321f6ce9fb386ff042c62af965e8c37e65fd619e7d74c3a4&quot;</span>
+	  }
+	}
+  }
+}</pre></div>
+</div><h3 id='tymethod.verify_slate_messages' class='method'><code id='verify_slate_messages.v'>fn <a href='#tymethod.verify_slate_messages' class='fnname'>verify_slate_messages</a>(&amp;self, slate: VersionedSlate) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>, ErrorKind&gt;</code></h3><div class='docblock'><p>Networked version of <a href="struct.Foreign.html#method.verify_slate_messages">Foreign::verify_slate_messages</a>.</p>
+<h1 id="json-rpc-example-2" class="section-header"><a href="#json-rpc-example-2">Json rpc example</a></h1>
+<div class="example-wrap"><pre class="rust rust-example-rendered">
+{
+	<span class="string">&quot;jsonrpc&quot;</span>: <span class="string">&quot;2.0&quot;</span>,
+	<span class="string">&quot;method&quot;</span>: <span class="string">&quot;verify_slate_messages&quot;</span>,
+	<span class="string">&quot;id&quot;</span>: <span class="number">1</span>,
+	<span class="string">&quot;params&quot;</span>: [ {
+			<span class="string">&quot;amount&quot;</span>: <span class="string">&quot;6000000000&quot;</span>,
+			<span class="string">&quot;fee&quot;</span>: <span class="string">&quot;8000000&quot;</span>,
+			<span class="string">&quot;height&quot;</span>: <span class="string">&quot;4&quot;</span>,
+			<span class="string">&quot;id&quot;</span>: <span class="string">&quot;0436430c-2b02-624c-2032-570501212b00&quot;</span>,
+			<span class="string">&quot;lock_height&quot;</span>: <span class="string">&quot;4&quot;</span>,
+			<span class="string">&quot;ttl_cutoff_height&quot;</span>: <span class="ident">null</span>,
+			<span class="string">&quot;payment_proof&quot;</span>: <span class="ident">null</span>,
+			<span class="string">&quot;num_participants&quot;</span>: <span class="number">2</span>,
+			<span class="string">&quot;participant_data&quot;</span>: [
+			{
+				<span class="string">&quot;id&quot;</span>: <span class="string">&quot;0&quot;</span>,
+				<span class="string">&quot;message&quot;</span>: <span class="string">&quot;my message&quot;</span>,
+				<span class="string">&quot;message_sig&quot;</span>: <span class="string">&quot;8f07ddd5e9f5179cff19486034181ed76505baaad53e5d994064127b56c5841b1d4c1358be398f801eb90d933774b5218fa7e769b11c4c640402253353656f75&quot;</span>,
+				<span class="string">&quot;part_sig&quot;</span>: <span class="ident">null</span>,
+				<span class="string">&quot;public_blind_excess&quot;</span>: <span class="string">&quot;034b4df2f0558b73ea72a1ca5c4ab20217c66bbe0829056fca7abe76888e9349ee&quot;</span>,
+				<span class="string">&quot;public_nonce&quot;</span>: <span class="string">&quot;031b84c5567b126440995d3ed5aaba0565d71e1834604819ff9c17f5e9d5dd078f&quot;</span>
+			}
+			],
+			<span class="string">&quot;tx&quot;</span>: {
+				<span class="string">&quot;body&quot;</span>: {
+					<span class="string">&quot;inputs&quot;</span>: [
+					{
+						<span class="string">&quot;commit&quot;</span>: <span class="string">&quot;08e1da9e6dc4d6e808a718b2f110a991dd775d65ce5ae408a4e1f002a4961aa9e7&quot;</span>,
+						<span class="string">&quot;features&quot;</span>: <span class="string">&quot;Coinbase&quot;</span>
+					}
+					],
+					<span class="string">&quot;kernels&quot;</span>: [
+					{
+						<span class="string">&quot;excess&quot;</span>: <span class="string">&quot;000000000000000000000000000000000000000000000000000000000000000000&quot;</span>,
+						<span class="string">&quot;excess_sig&quot;</span>: <span class="string">&quot;00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&quot;</span>,
+						<span class="string">&quot;features&quot;</span>: <span class="string">&quot;HeightLocked&quot;</span>,
+						<span class="string">&quot;fee&quot;</span>: <span class="string">&quot;8000000&quot;</span>,
+						<span class="string">&quot;lock_height&quot;</span>: <span class="string">&quot;4&quot;</span>
+					}
+					],
+					<span class="string">&quot;outputs&quot;</span>: [
+					{
+						<span class="string">&quot;commit&quot;</span>: <span class="string">&quot;094be57c91787fc2033d5d97fae099f1a6ddb37ea48370f1a138f09524c767fdd3&quot;</span>,
+						<span class="string">&quot;features&quot;</span>: <span class="string">&quot;Plain&quot;</span>,
+						<span class="string">&quot;proof&quot;</span>: <span class="string">&quot;2a42e9e902b70ce44e1fccb14de87ee0a97100bddf12c6bead1b9c5f4eb60300f29c13094fa12ffeee238fb4532b18f6b61cf51b23c1c7e1ad2e41560dc27edc0a2b9e647a0b3e4e806fced5b65e61d0f1f5197d3e2285c632d359e27b6b9206b2caffea4f67e0c7a2812e7a22c134b98cf89bd43d9f28b8bec25cce037a0ac5b1ae8f667e54e1250813a5263004486b4465ad4e641ab2b535736ea26535a11013564f08f483b7dab1c2bcc3ee38eadf2f7850eff7e3459a4bbabf9f0cf6c50d0c0a4120565cd4a2ce3e354c11721cd695760a24c70e0d5a0dfc3c5dcd51dfad6de2c237a682f36dc0b271f21bb3655e5333016aaa42c2efa1446e5f3c0a79ec417c4d30f77556951cb0f05dbfafb82d9f95951a9ea241fda2a6388f73ace036b98acce079f0e4feebccc96290a86dcc89118a901210b245f2d114cf94396e4dbb461e82aa26a0581389707957968c7cdc466213bb1cd417db207ef40c05842ab67a01a9b96eb1430ebc26e795bb491258d326d5174ad549401059e41782121e506744af8af9d8e493644a87d613600888541cbbe538c625883f3eb4aa3102c5cfcc25de8e97af8927619ce6a731b3b8462d51d993066b935b0648d2344ad72e4fd70f347fbd81041042e5ea31cc7b2e3156a920b80ecba487b950ca32ca95fae85b759c936246ecf441a9fdd95e8fee932d6782cdec686064018c857efc47fb4b2a122600d5fdd79af2486f44df7e629184e1c573bc0a9b3feb40b190ef2861a1ab45e2ac2201b9cd42e495deea247269820ed32389a2810ad6c0f9a296d2a2d9c54089fed50b7f5ecfcd33ab9954360e1d7f5598c32128cfcf2a1d8bf14616818da8a5343bfa88f0eedf392e9d4ab1ace1b60324129cd4852c2e27813a9cf71a6ae6229a4fcecc1a756b3e664c5f50af333082616815a3bec8fc0b75b8e4e767d719&quot;</span>
+					}
+					]
+				},
+				<span class="string">&quot;offset&quot;</span>: <span class="string">&quot;d202964900000000d302964900000000d402964900000000d502964900000000&quot;</span>
+			},
+			<span class="string">&quot;version_info&quot;</span>: {
+				<span class="string">&quot;orig_version&quot;</span>: <span class="number">2</span>,
+				<span class="string">&quot;version&quot;</span>: <span class="number">2</span>,
+				<span class="string">&quot;block_header_version&quot;</span>: <span class="number">2</span>
+			}
+		}
+	]
+}
+{
+	<span class="string">&quot;jsonrpc&quot;</span>: <span class="string">&quot;2.0&quot;</span>,
+	<span class="string">&quot;id&quot;</span>: <span class="number">1</span>,
+	<span class="string">&quot;result&quot;</span>: {
+		<span class="string">&quot;Ok&quot;</span>: <span class="ident">null</span>
+	}
+}</pre></div>
+</div><h3 id='tymethod.receive_tx' class='method'><code id='receive_tx.v'>fn <a href='#tymethod.receive_tx' class='fnname'>receive_tx</a>(<br>&nbsp;&nbsp;&nbsp;&nbsp;&amp;self, <br>&nbsp;&nbsp;&nbsp;&nbsp;slate: VersionedSlate, <br>&nbsp;&nbsp;&nbsp;&nbsp;dest_acct_name: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;, <br>&nbsp;&nbsp;&nbsp;&nbsp;message: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;<br>) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;VersionedSlate, ErrorKind&gt;</code></h3><div class='docblock'><p>Networked version of <a href="struct.Foreign.html#method.receive_tx">Foreign::receive_tx</a>.</p>
+<h1 id="json-rpc-example-3" class="section-header"><a href="#json-rpc-example-3">Json rpc example</a></h1>
+<div class="example-wrap"><pre class="rust rust-example-rendered">
+{
+	<span class="string">&quot;jsonrpc&quot;</span>: <span class="string">&quot;2.0&quot;</span>,
+	<span class="string">&quot;method&quot;</span>: <span class="string">&quot;receive_tx&quot;</span>,
+	<span class="string">&quot;id&quot;</span>: <span class="number">1</span>,
+	<span class="string">&quot;params&quot;</span>: [
+	{
+	  <span class="string">&quot;version_info&quot;</span>: {
+		<span class="string">&quot;version&quot;</span>: <span class="number">2</span>,
+		<span class="string">&quot;orig_version&quot;</span>: <span class="number">2</span>,
+		<span class="string">&quot;block_header_version&quot;</span>: <span class="number">1</span>
+	  },
+	  <span class="string">&quot;num_participants&quot;</span>: <span class="number">2</span>,
+	  <span class="string">&quot;id&quot;</span>: <span class="string">&quot;0436430c-2b02-624c-2032-570501212b00&quot;</span>,
+	  <span class="string">&quot;tx&quot;</span>: {
+		<span class="string">&quot;offset&quot;</span>: <span class="string">&quot;d202964900000000d302964900000000d402964900000000d502964900000000&quot;</span>,
+		<span class="string">&quot;body&quot;</span>: {
+		  <span class="string">&quot;inputs&quot;</span>: [
+			{
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Coinbase&quot;</span>,
+			  <span class="string">&quot;commit&quot;</span>: <span class="string">&quot;098778ce2243fa34e5876c8cb7f6dbbbd6a5649c1561973a807a6811941c12363c&quot;</span>
+			},
+			{
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Coinbase&quot;</span>,
+			  <span class="string">&quot;commit&quot;</span>: <span class="string">&quot;0910c1752100733bae49e877286835aab76d5856ef8139b6c6e3f51798aa461b03&quot;</span>
+			}
+		  ],
+		  <span class="string">&quot;outputs&quot;</span>: [
+			{
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Plain&quot;</span>,
+			  <span class="string">&quot;commit&quot;</span>: <span class="string">&quot;096e1669267c22ecb38c466d73b8578261d8e91c14dd66702dd5bf34f4232e10db&quot;</span>,
+			  <span class="string">&quot;proof&quot;</span>: <span class="string">&quot;7d567b0895a1103d19446929da8b98f2086819507ddce4b9dbb5ce6327107744e74aba59ef1834937da1b86eb7c1c1b0bc11d1c5d5ec79d25bc1e52aed1656f60d46f6878ba5ca8639efdbb9203e378e91171c11527c4a34713f06dc22f58ca4a08e68d83ff897e61cfc145fe376fa428b55e25cf20d15f10b9054778229798b30fb4e45d817a5053b682dcf591481a3c8174cfbba81e31aa525d5b884ca7a016713178f26c0fe8ae1f88b5382f8e70c4d91fb3828c0f307d828aa028281d3551525e68d20827ab0e6785c6b5747e895dcd38429b44e62b7f6c1c921d87ae954a9dd6e967ac52e6cd13a1d4bb2f1434da25a0723ef9c869cc573019577552dd0e0f808f8cc57723b041320025f6433779fe907998a4ec7606bf884b2199253b502065bed8e0625c2df858d6508c1aa44deddc68d06d00d81e97720e23e15a3464ed4733fc547e9fb772e563a1dbcd27ac55e40f674f9006e7dd4465444f3eb7527cb01905dee69a51cf2fc1810c861dd0834e7649d594c3e1740d85343a6b63c8a9e0a0f63059031899b38dfd9a192034d54029bd35e683ccab46282519b26cae20d398b754357abe1cf0370890f2897b5d8ada4fb3da777a8f8f1daa4197a380e6734504117dd2a92ea1917f174c44c59e0b50c6b7a5f9eb14e6d96cb6b3e5dbcb3d0eaf0e4aac1b6616d674bb708b7559e37de608e8a828bee7f25f627e2f06d9a87e8d651ade39e1e65db7204b94abc0b7ca6fdd75aadeeac6a876b6297e38039734ebdfa9a555152b4293cb00e423a66d64f827afa4748dd6fdc1dc33332bffb820dacbf5a6d347042db985bbd9cf476dceb45d6978035ba03d25612243fc164c0a902017ce7ffd632d041fa3c56554739e78c6d725ecbfdaa0739d3649239fb53294b7a46ee6ed403bf3815f6c78f06a8ca4e3c9b066234f7574fb6ea8f17d199&quot;</span>
+			}
+		  ],
+		  <span class="string">&quot;kernels&quot;</span>: [
+			{
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Plain&quot;</span>,
+			  <span class="string">&quot;fee&quot;</span>: <span class="string">&quot;7000000&quot;</span>,
+			  <span class="string">&quot;lock_height&quot;</span>: <span class="string">&quot;0&quot;</span>,
+			  <span class="string">&quot;excess&quot;</span>: <span class="string">&quot;000000000000000000000000000000000000000000000000000000000000000000&quot;</span>,
+			  <span class="string">&quot;excess_sig&quot;</span>: <span class="string">&quot;00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&quot;</span>
+			}
+		  ]
+		}
+	  },
+	  <span class="string">&quot;amount&quot;</span>: <span class="string">&quot;2000000000&quot;</span>,
+	  <span class="string">&quot;fee&quot;</span>: <span class="string">&quot;7000000&quot;</span>,
+	  <span class="string">&quot;height&quot;</span>: <span class="string">&quot;5&quot;</span>,
+	  <span class="string">&quot;lock_height&quot;</span>: <span class="string">&quot;0&quot;</span>,
+	  <span class="string">&quot;participant_data&quot;</span>: [
+		{
+		  <span class="string">&quot;id&quot;</span>: <span class="string">&quot;0&quot;</span>,
+		  <span class="string">&quot;public_blind_excess&quot;</span>: <span class="string">&quot;03ad559b009e8231fcc2a06d40b7341322974c9b13a52000ca2462df2de60aba9f&quot;</span>,
+		  <span class="string">&quot;public_nonce&quot;</span>: <span class="string">&quot;031b84c5567b126440995d3ed5aaba0565d71e1834604819ff9c17f5e9d5dd078f&quot;</span>,
+		  <span class="string">&quot;part_sig&quot;</span>: <span class="ident">null</span>,
+		  <span class="string">&quot;message&quot;</span>: <span class="ident">null</span>,
+		  <span class="string">&quot;message_sig&quot;</span>: <span class="ident">null</span>
+		}
+	  ]
+	},
+	<span class="ident">null</span>,
+	<span class="string">&quot;Thanks, Yeastplume&quot;</span>
+	]
+}
+{
+  <span class="string">&quot;id&quot;</span>: <span class="number">1</span>,
+  <span class="string">&quot;jsonrpc&quot;</span>: <span class="string">&quot;2.0&quot;</span>,
+  <span class="string">&quot;result&quot;</span>: {
+	<span class="string">&quot;Ok&quot;</span>: {
+	  <span class="string">&quot;amount&quot;</span>: <span class="string">&quot;2000000000&quot;</span>,
+	  <span class="string">&quot;fee&quot;</span>: <span class="string">&quot;7000000&quot;</span>,
+	  <span class="string">&quot;height&quot;</span>: <span class="string">&quot;5&quot;</span>,
+	  <span class="string">&quot;id&quot;</span>: <span class="string">&quot;0436430c-2b02-624c-2032-570501212b00&quot;</span>,
+	  <span class="string">&quot;lock_height&quot;</span>: <span class="string">&quot;0&quot;</span>,
+	  <span class="string">&quot;num_participants&quot;</span>: <span class="number">2</span>,
+	  <span class="string">&quot;participant_data&quot;</span>: [
+		{
+		  <span class="string">&quot;id&quot;</span>: <span class="string">&quot;0&quot;</span>,
+		  <span class="string">&quot;message&quot;</span>: <span class="ident">null</span>,
+		  <span class="string">&quot;message_sig&quot;</span>: <span class="ident">null</span>,
+		  <span class="string">&quot;part_sig&quot;</span>: <span class="ident">null</span>,
+		  <span class="string">&quot;public_blind_excess&quot;</span>: <span class="string">&quot;03ad559b009e8231fcc2a06d40b7341322974c9b13a52000ca2462df2de60aba9f&quot;</span>,
+		  <span class="string">&quot;public_nonce&quot;</span>: <span class="string">&quot;031b84c5567b126440995d3ed5aaba0565d71e1834604819ff9c17f5e9d5dd078f&quot;</span>
+		},
+		{
+		  <span class="string">&quot;id&quot;</span>: <span class="string">&quot;1&quot;</span>,
+		  <span class="string">&quot;message&quot;</span>: <span class="string">&quot;Thanks, Yeastplume&quot;</span>,
+		  <span class="string">&quot;message_sig&quot;</span>: <span class="string">&quot;8f07ddd5e9f5179cff19486034181ed76505baaad53e5d994064127b56c5841b6c6cb87c1977029547b80c450a5eede38c274ee790e6f255e4a64f5ae16e208f&quot;</span>,
+		  <span class="string">&quot;part_sig&quot;</span>: <span class="string">&quot;8f07ddd5e9f5179cff19486034181ed76505baaad53e5d994064127b56c5841bd69568a703555f97b8a6bb1b3a03b9bfe4b58ef802ce78a9dbe3dcd6c1ce6e75&quot;</span>,
+		  <span class="string">&quot;public_blind_excess&quot;</span>: <span class="string">&quot;02bfee5e0a52d4feb86e9477ed6771b2fde100d7919771d2ebe0d08c5227537390&quot;</span>,
+		  <span class="string">&quot;public_nonce&quot;</span>: <span class="string">&quot;031b84c5567b126440995d3ed5aaba0565d71e1834604819ff9c17f5e9d5dd078f&quot;</span>
+		}
+	  ],
+	  <span class="string">&quot;tx&quot;</span>: {
+		<span class="string">&quot;body&quot;</span>: {
+		  <span class="string">&quot;inputs&quot;</span>: [
+			{
+			  <span class="string">&quot;commit&quot;</span>: <span class="string">&quot;098778ce2243fa34e5876c8cb7f6dbbbd6a5649c1561973a807a6811941c12363c&quot;</span>,
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Coinbase&quot;</span>
+			},
+			{
+			  <span class="string">&quot;commit&quot;</span>: <span class="string">&quot;0910c1752100733bae49e877286835aab76d5856ef8139b6c6e3f51798aa461b03&quot;</span>,
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Coinbase&quot;</span>
+			}
+		  ],
+		  <span class="string">&quot;kernels&quot;</span>: [
+			{
+			  <span class="string">&quot;excess&quot;</span>: <span class="string">&quot;000000000000000000000000000000000000000000000000000000000000000000&quot;</span>,
+			  <span class="string">&quot;excess_sig&quot;</span>: <span class="string">&quot;00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&quot;</span>,
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Plain&quot;</span>,
+			  <span class="string">&quot;fee&quot;</span>: <span class="string">&quot;7000000&quot;</span>,
+			  <span class="string">&quot;lock_height&quot;</span>: <span class="string">&quot;0&quot;</span>
+			}
+		  ],
+		  <span class="string">&quot;outputs&quot;</span>: [
+			{
+			  <span class="string">&quot;commit&quot;</span>: <span class="string">&quot;09b07b9c83da767a3ad7d052705258c2697970a403e53101e63eb9c3d11e9a0e9a&quot;</span>,
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Plain&quot;</span>,
+			  <span class="string">&quot;proof&quot;</span>: <span class="string">&quot;dd695dd3a1000fd7805d5e3ee1df3b3221bb749b60685758cfbc33259e3cf861792dcb02a7b340d29ccb5bb4ddc99d1686874960b02856b882fc3e336226194a0cd15b5760f04172ff268e438d6e29507f23bd1f3180de974cd63b957d654ae08fbc804964d58fe0a71c2f31ecba86bd6c8eef37cddc9382471015114ac1d91132d2e78712e740682b2c7140c6a3b97fc1b93b38d90ebd0e74760f84dc6d9e44e36e9806189c65a2ce4c8257983ca255952f1ba66e24312d4b34498f91b4218adf6e43c25ff9eec1fa7ce457004f1e7df12d28a2d8d6395cdcb97387c2fd51e133953e73e2124cdec100abfa25d0210bdf2bbd6d389ababfe2a930c8973cd1f3ba767b25aec4586540fa73081e385247af8834cf8172a3e2a5de55eb1afa363cf5abd26f1a7317600fb80f742a7e8e87a93bcc5c59e1c106cb7af5cb76d9d00a9b4d77aff325db73c87594d970e7654fd8b95b0dcf9c09c314608b3f8719634e6705013560e2478facbc35478d26a109eaecafd478c934dbdb3663c094126c4b4da77e1ab509bc160253e30175774b501aba223cda549f3d4680ab047320687638e17399901da27932b198eb96c8756446f295f1d625ac63c03119ad9261f492a5ebdbece1d9c15fd769778cd71c3cc99574ad9e903c4cd312c8af6830d624b524d7f398e301ade464e42e5facc1d628c65829b826cf461578cf890d4e3f68e3f3fcbae74794b44f9b2e9491dcc6ea6626107d3e8629c73657f606d8776150798d028849c66a91c4a3ce5fbe43fcf75d2a381ebd5ad9a7b9c8662ba46e8a27c1fcba89c8fa6beecdb7b918772db69c241c54c7ba70b92a919ba90d8318266b246fd1d5432367b1d5085b4e7419c814300a9dd7ccc7dfe6d5e6262d11f18ef0ae7b328a0ab1c8e02392e3a1d905bb069621a6ecf81950d16a9cb3b04ff6ee8b5546caa8&quot;</span>
+			},
+			{
+			  <span class="string">&quot;commit&quot;</span>: <span class="string">&quot;096e1669267c22ecb38c466d73b8578261d8e91c14dd66702dd5bf34f4232e10db&quot;</span>,
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Plain&quot;</span>,
+			  <span class="string">&quot;proof&quot;</span>: <span class="string">&quot;7d567b0895a1103d19446929da8b98f2086819507ddce4b9dbb5ce6327107744e74aba59ef1834937da1b86eb7c1c1b0bc11d1c5d5ec79d25bc1e52aed1656f60d46f6878ba5ca8639efdbb9203e378e91171c11527c4a34713f06dc22f58ca4a08e68d83ff897e61cfc145fe376fa428b55e25cf20d15f10b9054778229798b30fb4e45d817a5053b682dcf591481a3c8174cfbba81e31aa525d5b884ca7a016713178f26c0fe8ae1f88b5382f8e70c4d91fb3828c0f307d828aa028281d3551525e68d20827ab0e6785c6b5747e895dcd38429b44e62b7f6c1c921d87ae954a9dd6e967ac52e6cd13a1d4bb2f1434da25a0723ef9c869cc573019577552dd0e0f808f8cc57723b041320025f6433779fe907998a4ec7606bf884b2199253b502065bed8e0625c2df858d6508c1aa44deddc68d06d00d81e97720e23e15a3464ed4733fc547e9fb772e563a1dbcd27ac55e40f674f9006e7dd4465444f3eb7527cb01905dee69a51cf2fc1810c861dd0834e7649d594c3e1740d85343a6b63c8a9e0a0f63059031899b38dfd9a192034d54029bd35e683ccab46282519b26cae20d398b754357abe1cf0370890f2897b5d8ada4fb3da777a8f8f1daa4197a380e6734504117dd2a92ea1917f174c44c59e0b50c6b7a5f9eb14e6d96cb6b3e5dbcb3d0eaf0e4aac1b6616d674bb708b7559e37de608e8a828bee7f25f627e2f06d9a87e8d651ade39e1e65db7204b94abc0b7ca6fdd75aadeeac6a876b6297e38039734ebdfa9a555152b4293cb00e423a66d64f827afa4748dd6fdc1dc33332bffb820dacbf5a6d347042db985bbd9cf476dceb45d6978035ba03d25612243fc164c0a902017ce7ffd632d041fa3c56554739e78c6d725ecbfdaa0739d3649239fb53294b7a46ee6ed403bf3815f6c78f06a8ca4e3c9b066234f7574fb6ea8f17d199&quot;</span>
+			}
+		  ]
+		},
+		<span class="string">&quot;offset&quot;</span>: <span class="string">&quot;d202964900000000d302964900000000d402964900000000d502964900000000&quot;</span>
+	  },
+	  <span class="string">&quot;version_info&quot;</span>: {
+		<span class="string">&quot;block_header_version&quot;</span>: <span class="number">1</span>,
+		<span class="string">&quot;orig_version&quot;</span>: <span class="number">2</span>,
+		<span class="string">&quot;version&quot;</span>: <span class="number">2</span>
+	  }
+	}
+  }
+}</pre></div>
+</div><h3 id='tymethod.finalize_invoice_tx' class='method'><code id='finalize_invoice_tx.v'>fn <a href='#tymethod.finalize_invoice_tx' class='fnname'>finalize_invoice_tx</a>(<br>&nbsp;&nbsp;&nbsp;&nbsp;&amp;self, <br>&nbsp;&nbsp;&nbsp;&nbsp;slate: VersionedSlate<br>) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;VersionedSlate, ErrorKind&gt;</code></h3><div class='docblock'><p>Networked version of <a href="struct.Foreign.html#method.finalize_invoice_tx">Foreign::finalize_invoice_tx</a>.</p>
+<h1 id="json-rpc-example-4" class="section-header"><a href="#json-rpc-example-4">Json rpc example</a></h1>
+<div class="example-wrap"><pre class="rust rust-example-rendered">
+{
+	<span class="string">&quot;jsonrpc&quot;</span>: <span class="string">&quot;2.0&quot;</span>,
+	<span class="string">&quot;method&quot;</span>: <span class="string">&quot;finalize_invoice_tx&quot;</span>,
+	<span class="string">&quot;id&quot;</span>: <span class="number">1</span>,
+	<span class="string">&quot;params&quot;</span>: [{
+	  <span class="string">&quot;version_info&quot;</span>: {
+		<span class="string">&quot;version&quot;</span>: <span class="number">2</span>,
+		<span class="string">&quot;orig_version&quot;</span>: <span class="number">2</span>,
+		<span class="string">&quot;block_header_version&quot;</span>: <span class="number">1</span>
+	  },
+	  <span class="string">&quot;num_participants&quot;</span>: <span class="number">2</span>,
+	  <span class="string">&quot;id&quot;</span>: <span class="string">&quot;0436430c-2b02-624c-2032-570501212b00&quot;</span>,
+	  <span class="string">&quot;tx&quot;</span>: {
+		<span class="string">&quot;offset&quot;</span>: <span class="string">&quot;d202964900000000d302964900000000d402964900000000d502964900000000&quot;</span>,
+		<span class="string">&quot;body&quot;</span>: {
+		  <span class="string">&quot;inputs&quot;</span>: [
+			{
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Coinbase&quot;</span>,
+			  <span class="string">&quot;commit&quot;</span>: <span class="string">&quot;098778ce2243fa34e5876c8cb7f6dbbbd6a5649c1561973a807a6811941c12363c&quot;</span>
+			},
+			{
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Coinbase&quot;</span>,
+			  <span class="string">&quot;commit&quot;</span>: <span class="string">&quot;0910c1752100733bae49e877286835aab76d5856ef8139b6c6e3f51798aa461b03&quot;</span>
+			}
+		  ],
+		  <span class="string">&quot;outputs&quot;</span>: [
+			{
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Plain&quot;</span>,
+			  <span class="string">&quot;commit&quot;</span>: <span class="string">&quot;082967b3fe580cd110355010ef45450314fb067720db01b0e6873bb083d76708c9&quot;</span>,
+			  <span class="string">&quot;proof&quot;</span>: <span class="string">&quot;828bb24121aa0332c872062a42a8333c3ef81f8ae37d24053d953217368b3cada90410a50509a0b9fcbb5aded41397fc00ca1ff5acdac20d48afb0a3281d21e7026d32fdc6c5157461a35f98a809ffa09187c1e170ea24652ad213b7e4c9878654ac3dd9a8915eaf742db53182fcb42d2d341fbdfe8bd31bd001f4ff2c1ca9f9b1531da29137214f211edb7a5eb8f494cb8945f8527dd25bf7e698515043db4249540720008a708db5342230d05b069c094688ccb7c07d4a4a2293ea76cf999c555dc0ddc757891c360db1901bbb4dc20cae997f875f8de482d8160e05d60f9b0135e0fc313d8f953db78f1ea252449dd81cfa22dd895512ed39d566f0924542b543d25fc9fc7a819d228f3b0ee5e381f088f54893e86437dafc49dd923b3e6dff956ca843f951910379531fac9bb5fd01a182dd32a4c597f92da3c01af37cb9b0ec984500884438e74e54d7e76fa1ae7241d5050b13376310b24761634a6f6eb7cf000082f50ed7c1899d7918023d4f877586f964932a7af72e7a4984ddecfdd1921a2e1b80b00d6bd2e64a3f4cb6915a27a8d17a69d163cf45220a13fcddd15dc2bb91ae4f1b6a67224ab3b23e8d7d785df178ec78a84cf42cea086426f563822c8a4271a0b89bb21f84b643dbf1de21b6395039d673a376492767199fa36ccd9a13628ce61695424091acc16059450d59bc59fa7879e7306f5727217211b0264a6a560f886d520e41406ef45b1668805b88d246c5b2ca5a1762042c85be34fcd420ac3843f32236d079b4bd57d6b8d8013d9d18f8efb55e8e443cd9e1af9b144e7a56c8c6be0138af3b4a6c99bee9109bed2bce2e5145e736b125a2ec19aaf3fff713f6897fdd4158ce2ab04706b062ca2847bf70259c0fc4b0d390dc7fdaf0362047f775a912bd22da9d40f04d9790bcd5ece4b36b74c6c340b48c2926b916e8a9&quot;</span>
+			},
+			{
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Plain&quot;</span>,
+			  <span class="string">&quot;commit&quot;</span>: <span class="string">&quot;096e1669267c22ecb38c466d73b8578261d8e91c14dd66702dd5bf34f4232e10db&quot;</span>,
+			  <span class="string">&quot;proof&quot;</span>: <span class="string">&quot;7d567b0895a1103d19446929da8b98f2086819507ddce4b9dbb5ce6327107744e74aba59ef1834937da1b86eb7c1c1b0bc11d1c5d5ec79d25bc1e52aed1656f60d46f6878ba5ca8639efdbb9203e378e91171c11527c4a34713f06dc22f58ca4a08e68d83ff897e61cfc145fe376fa428b55e25cf20d15f10b9054778229798b30fb4e45d817a5053b682dcf591481a3c8174cfbba81e31aa525d5b884ca7a016713178f26c0fe8ae1f88b5382f8e70c4d91fb3828c0f307d828aa028281d3551525e68d20827ab0e6785c6b5747e895dcd38429b44e62b7f6c1c921d87ae954a9dd6e967ac52e6cd13a1d4bb2f1434da25a0723ef9c869cc573019577552dd0e0f808f8cc57723b041320025f6433779fe907998a4ec7606bf884b2199253b502065bed8e0625c2df858d6508c1aa44deddc68d06d00d81e97720e23e15a3464ed4733fc547e9fb772e563a1dbcd27ac55e40f674f9006e7dd4465444f3eb7527cb01905dee69a51cf2fc1810c861dd0834e7649d594c3e1740d85343a6b63c8a9e0a0f63059031899b38dfd9a192034d54029bd35e683ccab46282519b26cae20d398b754357abe1cf0370890f2897b5d8ada4fb3da777a8f8f1daa4197a380e6734504117dd2a92ea1917f174c44c59e0b50c6b7a5f9eb14e6d96cb6b3e5dbcb3d0eaf0e4aac1b6616d674bb708b7559e37de608e8a828bee7f25f627e2f06d9a87e8d651ade39e1e65db7204b94abc0b7ca6fdd75aadeeac6a876b6297e38039734ebdfa9a555152b4293cb00e423a66d64f827afa4748dd6fdc1dc33332bffb820dacbf5a6d347042db985bbd9cf476dceb45d6978035ba03d25612243fc164c0a902017ce7ffd632d041fa3c56554739e78c6d725ecbfdaa0739d3649239fb53294b7a46ee6ed403bf3815f6c78f06a8ca4e3c9b066234f7574fb6ea8f17d199&quot;</span>
+			}
+		  ],
+		  <span class="string">&quot;kernels&quot;</span>: [
+			{
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Plain&quot;</span>,
+			  <span class="string">&quot;fee&quot;</span>: <span class="string">&quot;7000000&quot;</span>,
+			  <span class="string">&quot;lock_height&quot;</span>: <span class="string">&quot;0&quot;</span>,
+			  <span class="string">&quot;excess&quot;</span>: <span class="string">&quot;000000000000000000000000000000000000000000000000000000000000000000&quot;</span>,
+			  <span class="string">&quot;excess_sig&quot;</span>: <span class="string">&quot;00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&quot;</span>
+			}
+		  ]
+		}
+	  },
+	  <span class="string">&quot;amount&quot;</span>: <span class="string">&quot;2000000000&quot;</span>,
+	  <span class="string">&quot;fee&quot;</span>: <span class="string">&quot;7000000&quot;</span>,
+	  <span class="string">&quot;height&quot;</span>: <span class="string">&quot;5&quot;</span>,
+	  <span class="string">&quot;lock_height&quot;</span>: <span class="string">&quot;0&quot;</span>,
+	  <span class="string">&quot;participant_data&quot;</span>: [
+		{
+		  <span class="string">&quot;id&quot;</span>: <span class="string">&quot;0&quot;</span>,
+		  <span class="string">&quot;public_blind_excess&quot;</span>: <span class="string">&quot;0269d5903f404e0e6d844ed9c9e78e72fd2f69bb43c2d6fad6ff03c6c637a323fb&quot;</span>,
+		  <span class="string">&quot;public_nonce&quot;</span>: <span class="string">&quot;031b84c5567b126440995d3ed5aaba0565d71e1834604819ff9c17f5e9d5dd078f&quot;</span>,
+		  <span class="string">&quot;part_sig&quot;</span>: <span class="ident">null</span>,
+		  <span class="string">&quot;message&quot;</span>: <span class="ident">null</span>,
+		  <span class="string">&quot;message_sig&quot;</span>: <span class="ident">null</span>
+		},
+		{
+		  <span class="string">&quot;id&quot;</span>: <span class="string">&quot;1&quot;</span>,
+		  <span class="string">&quot;public_blind_excess&quot;</span>: <span class="string">&quot;02ca0730ab4f619253c2507c82c82c9438569b14a6baaba7db695c69d6130374bc&quot;</span>,
+		  <span class="string">&quot;public_nonce&quot;</span>: <span class="string">&quot;031b84c5567b126440995d3ed5aaba0565d71e1834604819ff9c17f5e9d5dd078f&quot;</span>,
+		  <span class="string">&quot;part_sig&quot;</span>: <span class="string">&quot;8f07ddd5e9f5179cff19486034181ed76505baaad53e5d994064127b56c5841b069b8580fb79de922f344c2aaaa7b8820d91b34db114f37a5d11629727e216c5&quot;</span>,
+		  <span class="string">&quot;message&quot;</span>: <span class="ident">null</span>,
+		  <span class="string">&quot;message_sig&quot;</span>: <span class="ident">null</span>
+		}
+	  ]
+	}]
+}
+{
+  <span class="string">&quot;id&quot;</span>: <span class="number">1</span>,
+  <span class="string">&quot;jsonrpc&quot;</span>: <span class="string">&quot;2.0&quot;</span>,
+  <span class="string">&quot;result&quot;</span>: {
+	<span class="string">&quot;Ok&quot;</span>: {
+	  <span class="string">&quot;amount&quot;</span>: <span class="string">&quot;2000000000&quot;</span>,
+	  <span class="string">&quot;fee&quot;</span>: <span class="string">&quot;7000000&quot;</span>,
+	  <span class="string">&quot;height&quot;</span>: <span class="string">&quot;5&quot;</span>,
+	  <span class="string">&quot;id&quot;</span>: <span class="string">&quot;0436430c-2b02-624c-2032-570501212b00&quot;</span>,
+	  <span class="string">&quot;lock_height&quot;</span>: <span class="string">&quot;0&quot;</span>,
+	  <span class="string">&quot;num_participants&quot;</span>: <span class="number">2</span>,
+	  <span class="string">&quot;participant_data&quot;</span>: [
+		{
+		  <span class="string">&quot;id&quot;</span>: <span class="string">&quot;0&quot;</span>,
+		  <span class="string">&quot;message&quot;</span>: <span class="ident">null</span>,
+		  <span class="string">&quot;message_sig&quot;</span>: <span class="ident">null</span>,
+		  <span class="string">&quot;part_sig&quot;</span>: <span class="string">&quot;8f07ddd5e9f5179cff19486034181ed76505baaad53e5d994064127b56c5841b5ac0735e5765908b26043708ec42e13e2627df972fd647c079e529527890fc82&quot;</span>,
+		  <span class="string">&quot;public_blind_excess&quot;</span>: <span class="string">&quot;0269d5903f404e0e6d844ed9c9e78e72fd2f69bb43c2d6fad6ff03c6c637a323fb&quot;</span>,
+		  <span class="string">&quot;public_nonce&quot;</span>: <span class="string">&quot;031b84c5567b126440995d3ed5aaba0565d71e1834604819ff9c17f5e9d5dd078f&quot;</span>
+		},
+		{
+		  <span class="string">&quot;id&quot;</span>: <span class="string">&quot;1&quot;</span>,
+		  <span class="string">&quot;message&quot;</span>: <span class="ident">null</span>,
+		  <span class="string">&quot;message_sig&quot;</span>: <span class="ident">null</span>,
+		  <span class="string">&quot;part_sig&quot;</span>: <span class="string">&quot;8f07ddd5e9f5179cff19486034181ed76505baaad53e5d994064127b56c5841b069b8580fb79de922f344c2aaaa7b8820d91b34db114f37a5d11629727e216c5&quot;</span>,
+		  <span class="string">&quot;public_blind_excess&quot;</span>: <span class="string">&quot;02ca0730ab4f619253c2507c82c82c9438569b14a6baaba7db695c69d6130374bc&quot;</span>,
+		  <span class="string">&quot;public_nonce&quot;</span>: <span class="string">&quot;031b84c5567b126440995d3ed5aaba0565d71e1834604819ff9c17f5e9d5dd078f&quot;</span>
+		}
+	  ],
+	  <span class="string">&quot;tx&quot;</span>: {
+		<span class="string">&quot;body&quot;</span>: {
+		  <span class="string">&quot;inputs&quot;</span>: [
+			{
+			  <span class="string">&quot;commit&quot;</span>: <span class="string">&quot;098778ce2243fa34e5876c8cb7f6dbbbd6a5649c1561973a807a6811941c12363c&quot;</span>,
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Coinbase&quot;</span>
+			},
+			{
+			  <span class="string">&quot;commit&quot;</span>: <span class="string">&quot;0910c1752100733bae49e877286835aab76d5856ef8139b6c6e3f51798aa461b03&quot;</span>,
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Coinbase&quot;</span>
+			}
+		  ],
+		  <span class="string">&quot;kernels&quot;</span>: [
+			{
+			  <span class="string">&quot;excess&quot;</span>: <span class="string">&quot;08b3b8b83c622f630141a66c9cad96e19c78f745e4e2ddea85439f05d14a404640&quot;</span>,
+			  <span class="string">&quot;excess_sig&quot;</span>: <span class="string">&quot;66074d25a751c4743342c90ad8ead9454daa00d9b9aed29bca321036d16c4b4d1f1ac30ec6809c5e1a983a83af0deb0635b892e5e0ea3a3bd7f68be99f721348&quot;</span>,
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Plain&quot;</span>,
+			  <span class="string">&quot;fee&quot;</span>: <span class="string">&quot;7000000&quot;</span>,
+			  <span class="string">&quot;lock_height&quot;</span>: <span class="string">&quot;0&quot;</span>
+			}
+		  ],
+		  <span class="string">&quot;outputs&quot;</span>: [
+			{
+			  <span class="string">&quot;commit&quot;</span>: <span class="string">&quot;082967b3fe580cd110355010ef45450314fb067720db01b0e6873bb083d76708c9&quot;</span>,
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Plain&quot;</span>,
+			  <span class="string">&quot;proof&quot;</span>: <span class="string">&quot;828bb24121aa0332c872062a42a8333c3ef81f8ae37d24053d953217368b3cada90410a50509a0b9fcbb5aded41397fc00ca1ff5acdac20d48afb0a3281d21e7026d32fdc6c5157461a35f98a809ffa09187c1e170ea24652ad213b7e4c9878654ac3dd9a8915eaf742db53182fcb42d2d341fbdfe8bd31bd001f4ff2c1ca9f9b1531da29137214f211edb7a5eb8f494cb8945f8527dd25bf7e698515043db4249540720008a708db5342230d05b069c094688ccb7c07d4a4a2293ea76cf999c555dc0ddc757891c360db1901bbb4dc20cae997f875f8de482d8160e05d60f9b0135e0fc313d8f953db78f1ea252449dd81cfa22dd895512ed39d566f0924542b543d25fc9fc7a819d228f3b0ee5e381f088f54893e86437dafc49dd923b3e6dff956ca843f951910379531fac9bb5fd01a182dd32a4c597f92da3c01af37cb9b0ec984500884438e74e54d7e76fa1ae7241d5050b13376310b24761634a6f6eb7cf000082f50ed7c1899d7918023d4f877586f964932a7af72e7a4984ddecfdd1921a2e1b80b00d6bd2e64a3f4cb6915a27a8d17a69d163cf45220a13fcddd15dc2bb91ae4f1b6a67224ab3b23e8d7d785df178ec78a84cf42cea086426f563822c8a4271a0b89bb21f84b643dbf1de21b6395039d673a376492767199fa36ccd9a13628ce61695424091acc16059450d59bc59fa7879e7306f5727217211b0264a6a560f886d520e41406ef45b1668805b88d246c5b2ca5a1762042c85be34fcd420ac3843f32236d079b4bd57d6b8d8013d9d18f8efb55e8e443cd9e1af9b144e7a56c8c6be0138af3b4a6c99bee9109bed2bce2e5145e736b125a2ec19aaf3fff713f6897fdd4158ce2ab04706b062ca2847bf70259c0fc4b0d390dc7fdaf0362047f775a912bd22da9d40f04d9790bcd5ece4b36b74c6c340b48c2926b916e8a9&quot;</span>
+			},
+			{
+			  <span class="string">&quot;commit&quot;</span>: <span class="string">&quot;096e1669267c22ecb38c466d73b8578261d8e91c14dd66702dd5bf34f4232e10db&quot;</span>,
+			  <span class="string">&quot;features&quot;</span>: <span class="string">&quot;Plain&quot;</span>,
+			  <span class="string">&quot;proof&quot;</span>: <span class="string">&quot;7d567b0895a1103d19446929da8b98f2086819507ddce4b9dbb5ce6327107744e74aba59ef1834937da1b86eb7c1c1b0bc11d1c5d5ec79d25bc1e52aed1656f60d46f6878ba5ca8639efdbb9203e378e91171c11527c4a34713f06dc22f58ca4a08e68d83ff897e61cfc145fe376fa428b55e25cf20d15f10b9054778229798b30fb4e45d817a5053b682dcf591481a3c8174cfbba81e31aa525d5b884ca7a016713178f26c0fe8ae1f88b5382f8e70c4d91fb3828c0f307d828aa028281d3551525e68d20827ab0e6785c6b5747e895dcd38429b44e62b7f6c1c921d87ae954a9dd6e967ac52e6cd13a1d4bb2f1434da25a0723ef9c869cc573019577552dd0e0f808f8cc57723b041320025f6433779fe907998a4ec7606bf884b2199253b502065bed8e0625c2df858d6508c1aa44deddc68d06d00d81e97720e23e15a3464ed4733fc547e9fb772e563a1dbcd27ac55e40f674f9006e7dd4465444f3eb7527cb01905dee69a51cf2fc1810c861dd0834e7649d594c3e1740d85343a6b63c8a9e0a0f63059031899b38dfd9a192034d54029bd35e683ccab46282519b26cae20d398b754357abe1cf0370890f2897b5d8ada4fb3da777a8f8f1daa4197a380e6734504117dd2a92ea1917f174c44c59e0b50c6b7a5f9eb14e6d96cb6b3e5dbcb3d0eaf0e4aac1b6616d674bb708b7559e37de608e8a828bee7f25f627e2f06d9a87e8d651ade39e1e65db7204b94abc0b7ca6fdd75aadeeac6a876b6297e38039734ebdfa9a555152b4293cb00e423a66d64f827afa4748dd6fdc1dc33332bffb820dacbf5a6d347042db985bbd9cf476dceb45d6978035ba03d25612243fc164c0a902017ce7ffd632d041fa3c56554739e78c6d725ecbfdaa0739d3649239fb53294b7a46ee6ed403bf3815f6c78f06a8ca4e3c9b066234f7574fb6ea8f17d199&quot;</span>
+			}
+		  ]
+		},
+		<span class="string">&quot;offset&quot;</span>: <span class="string">&quot;d202964900000000d302964900000000d402964900000000d502964900000000&quot;</span>
+	  },
+	  <span class="string">&quot;version_info&quot;</span>: {
+		<span class="string">&quot;block_header_version&quot;</span>: <span class="number">1</span>,
+		<span class="string">&quot;orig_version&quot;</span>: <span class="number">2</span>,
+		<span class="string">&quot;version&quot;</span>: <span class="number">2</span>
+	  }
+	}
+  }
+}</pre></div>
+</div></div><span class='loading-content'>Loading content...</span><h2 id='implementations' class='small-section-header'>Trait Implementations<a href='#implementations' class='anchor'></a></h2><div id='implementations-list'><h3 id='impl-Handler' class='impl'><code class='in-band'>impl Handler for dyn <a class="trait" href="../grin_wallet_api/trait.ForeignRpc.html" title="trait grin_wallet_api::ForeignRpc">ForeignRpc</a></code><a href='#impl-Handler' class='anchor'></a><a class='srclink' href='../src/grin_wallet_api/foreign_rpc.rs.html#30' title='goto source code'>[src]</a></h3><div class='impl-items'><h4 id='method.handle' class="method hidden"><code id='handle.v'>fn <a href='#method.handle' class='fnname'>handle</a>(&amp;self, method: &amp;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.str.html">str</a>, params: Params) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;<a class="enum" href="https://docs.rs/serde_json/1.0.53/serde_json/value/enum.Value.html" title="enum serde_json::value::Value">Value</a>, Error&gt;</code><a class='srclink' href='../src/grin_wallet_api/foreign_rpc.rs.html#30' title='goto source code'>[src]</a></h4><div class='docblock hidden'><p>Type-check params and call method if method exists. This method is implemented automatically by the rpc macro. <a href="#tymethod.handle">Read more</a></p>
+</div><h4 id='method.handle_request' class="method hidden"><code id='handle_request.v'>fn <a href='#method.handle_request' class='fnname'>handle_request</a>(&amp;self, raw_request: <a class="enum" href="https://docs.rs/serde_json/1.0.53/serde_json/value/enum.Value.html" title="enum serde_json::value::Value">Value</a>) -&gt; MaybeReply</code></h4><div class='docblock hidden'><p>Parses raw_request as a jsonrpc request, handles request according to the jsonrpc spec.</p>
+</div></div></div>
+            <h2 id='implementors' class='small-section-header'>Implementors<a href='#implementors' class='anchor'></a></h2><div class='item-list' id='implementors-list'><h3 id='impl-ForeignRpc' class='impl'><code class='in-band'>impl&lt;'a, L, C, K&gt; ForeignRpc for <a class="struct" href="../grin_wallet_api/struct.Foreign.html" title="struct grin_wallet_api::Foreign">Foreign</a>&lt;'a, L, C, K&gt; <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;L: WalletLCProvider&lt;'a, C, K&gt;,<br>&nbsp;&nbsp;&nbsp;&nbsp;C: NodeClient + 'a,<br>&nbsp;&nbsp;&nbsp;&nbsp;K: Keychain + 'a,&nbsp;</span></code><a href='#impl-ForeignRpc' class='anchor'></a><a class='srclink' href='../src/grin_wallet_api/foreign_rpc.rs.html#523-567' title='goto source code'>[src]</a></h3><div class='impl-items'><h4 id='method.check_version' class="method hidden"><code id='check_version.v-1'>fn <a href='#method.check_version' class='fnname'>check_version</a>(&amp;self) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;VersionInfo, ErrorKind&gt;</code><a class='srclink' href='../src/grin_wallet_api/foreign_rpc.rs.html#529-531' title='goto source code'>[src]</a></h4><h4 id='method.build_coinbase' class="method hidden"><code id='build_coinbase.v-1'>fn <a href='#method.build_coinbase' class='fnname'>build_coinbase</a>(<br>&nbsp;&nbsp;&nbsp;&nbsp;&amp;self, <br>&nbsp;&nbsp;&nbsp;&nbsp;block_fees: &amp;BlockFees<br>) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;VersionedCoinbase, ErrorKind&gt;</code><a class='srclink' href='../src/grin_wallet_api/foreign_rpc.rs.html#533-536' title='goto source code'>[src]</a></h4><h4 id='method.verify_slate_messages' class="method hidden"><code id='verify_slate_messages.v-1'>fn <a href='#method.verify_slate_messages' class='fnname'>verify_slate_messages</a>(&amp;self, slate: VersionedSlate) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>, ErrorKind&gt;</code><a class='srclink' href='../src/grin_wallet_api/foreign_rpc.rs.html#538-540' title='goto source code'>[src]</a></h4><h4 id='method.receive_tx' class="method hidden"><code id='receive_tx.v-1'>fn <a href='#method.receive_tx' class='fnname'>receive_tx</a>(<br>&nbsp;&nbsp;&nbsp;&nbsp;&amp;self, <br>&nbsp;&nbsp;&nbsp;&nbsp;in_slate: VersionedSlate, <br>&nbsp;&nbsp;&nbsp;&nbsp;dest_acct_name: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;, <br>&nbsp;&nbsp;&nbsp;&nbsp;message: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;<br>) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;VersionedSlate, ErrorKind&gt;</code><a class='srclink' href='../src/grin_wallet_api/foreign_rpc.rs.html#542-559' title='goto source code'>[src]</a></h4><h4 id='method.finalize_invoice_tx' class="method hidden"><code id='finalize_invoice_tx.v-1'>fn <a href='#method.finalize_invoice_tx' class='fnname'>finalize_invoice_tx</a>(<br>&nbsp;&nbsp;&nbsp;&nbsp;&amp;self, <br>&nbsp;&nbsp;&nbsp;&nbsp;in_slate: VersionedSlate<br>) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;VersionedSlate, ErrorKind&gt;</code><a class='srclink' href='../src/grin_wallet_api/foreign_rpc.rs.html#561-566' title='goto source code'>[src]</a></h4></div></div><span class='loading-content'>Loading content...</span><script type="text/javascript" src="../implementors/grin_wallet_api/trait.ForeignRpc.js" async></script></section><section id="search" class="content hidden"></section><section class="footer"></section><script>window.rootPath = "../";window.currentCrate = "grin_wallet_api";</script><script src="../aliases.js"></script><script src="../main.js"></script><script defer src="../search-index.js"></script></body></html>
